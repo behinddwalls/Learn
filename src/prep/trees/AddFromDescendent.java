@@ -1,13 +1,5 @@
 package prep.trees;
 
-class IntWrap {
-	int value;
-
-	public IntWrap(int value) {
-		this.value = value;
-	}
-}
-
 public class AddFromDescendent {
 	static int oldValue = 0;
 

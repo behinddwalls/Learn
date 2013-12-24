@@ -61,7 +61,7 @@ public class Heap {
 		}
 	}
 
-	int left(int i) {
+	int left(int i) { 
 		return 2 * i ;
 	}
 

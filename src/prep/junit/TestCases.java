@@ -22,6 +22,7 @@ public class TestCases {
 		for (int i = 0; i < heapSize; i++) {
 			if (res[i] != expected[i])
 				fail("Failed");
+			
 		}
 	}
 

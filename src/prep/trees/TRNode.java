@@ -24,6 +24,70 @@ public class TRNode {
 		}
 	}
 
+	public boolean isBST(TRNode prev) {
+		if (this != null) {
+			if (this.left != null)
+				if (!this.left.isBST(prev))
+					return false;
+			if (prev != null && this.data <= prev.data)
+				return false;
+			prev = this;
+			if (this.right != null)
+				return this.right.isBST(prev);
+		}
+		return true;
+	}
+
+	public boolean isSubTree(TRNode tree, TRNode subTree) {
+		if (null == subTree)
+			return true;
+		if (tree == null)
+			return false;
+		if (this.areIdentical(tree, subTree))
+			return true;
+		return this.isSubTree(tree.left, subTree)
+				|| this.isSubTree(tree.right, subTree);
+	}
+
+	public boolean areIdentical(TRNode tree1, TRNode tree2) {
+		if (tree1 == null && tree2 == null)
+			return true;
+		if (tree1 == null || tree2 == null)
+			return false;
+		return tree1.data == tree2.data
+				&& this.areIdentical(tree1.left, tree2.left)
+				&& this.areIdentical(tree1.right, tree2.right);
+	}
+
+	public void transformToMirrorTree(TRNode root) {
+		if (root == null)
+			return;
+		transformToMirrorTree(root.left);
+		transformToMirrorTree(root.right);
+		TRNode temp = root.right;
+		root.right = root.left;
+		root.left = temp;
+	}
+
+	public void printView(TRNode root, boolean isLeft, IntWrap maxLevel,
+			int level) {
+		if (root == null)
+			return;
+		if (maxLevel == null)
+			maxLevel = new IntWrap(0);
+		if (maxLevel.value < level) {
+			System.out.print(root.data + " ");
+			maxLevel.value = level;
+		}
+		if (isLeft) {
+			printView(root.left, isLeft, maxLevel, level + 1);
+			printView(root.right, isLeft, maxLevel, level + 1);
+		} else {
+			printView(root.right, isLeft, maxLevel, level + 1);
+			printView(root.left, isLeft, maxLevel, level + 1);
+		}
+	}
+
 	/**
 	 * @return the data
 	 */
