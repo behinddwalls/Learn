@@ -1,0 +1,9 @@
+<div ng-controller="UserCtrl">
+Total Friends : {{ friends.length}}<br/>
+Search: <input ng-model="queryFriends">
+<ul>
+    <li ng-repeat="user in friends | filter:queryFriends">
+      <a href='https://facebook.com/{{user.id}}' target="_blank">{{user.name}}</a>
+    </li>
+  </ul>
+</div>

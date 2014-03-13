@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" ng-app>
+<head>
+  <meta charset="utf-8">
+  <title>My App1</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+</head>
+<body>
+ 
+        Enter Your Name: <input ng-model="msg" type="text" placeholder="Enter Your Name !!!" ng-init="msg='Mr. Cloak'"/><br/>
+	Modify the Number: <input ng-model="numb" type="number"  ng-init="numb=1.234"/>
+  
+	<!-- expression -->
+	  <pre>
+	 <p>Data Binding: <b>Welcome to Hell, <i>{{msg}}</i></b></p>
+	  <p>Only display 2 decimal digits:<b>{{numb}} : <i>{{numb | number:2}}</i></b></p>
+	  <p>Nothing here {{'yet' + '!'}}</p>
+	  <p>This is sum 1+2 = {{1+2}}</p>
+</pre>
+ 
+</body>
+</html>
