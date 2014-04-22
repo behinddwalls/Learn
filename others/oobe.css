@@ -606,6 +606,7 @@ font-size: 19pt;
 line-height: 65px;
 padding-left: 27%;
 width: auto;
+float:none;
 }
 div.after_signup_buttons {
 font-size: 11pt;
@@ -616,6 +617,15 @@ div.legal {
 font-size: 9pt;
 padding: 10px;
 }
-
+div.no_thanks {
+font-size: 9pt;
+font-weight: 100;
+padding: 10px;
+position: relative;
+top: 20px;
+margin-left: 13%;
+color: #6aa9db;
+font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
+}
 }
 
