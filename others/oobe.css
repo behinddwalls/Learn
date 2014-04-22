@@ -703,11 +703,11 @@ font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
 
 @media all and (max-width: 1024px) and (min-width: 769px) {
 	div.headline {
-font-size: 21pt;
+font-size: 32pt;
 font-weight: 100;
-padding: 18px;
+padding: 20px;
 }
-div.upsell_image {
+ddiv.upsell_image {
 padding-top: 10px;
 background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/oobe_800x220_adult._V356494088_.jpg") no-repeat left top;
 display: block;
@@ -715,17 +715,17 @@ height: 219px;
 left: 0px;
 position: relative;
 top: 0px;
-width: 91%;
+width: 800px;
 margin: 0 auto;
 }
 	div.benefits_listing {
 		padding-top: 18px;
 	}
 div.container {
-padding: 18px 24px;
+padding: 20px 28px;
 }
-	div.benefits_title {
-font-size: 16pt;
+div.benefits_title {
+font-size: 20pt;
 font-weight: 100;
 padding-top: 6px;
 }
@@ -738,31 +738,31 @@ padding-top: 6px;
 		width: 760px;
 		margin: 20px 0px 16px 0px;
 	}
-div.benefit_headline {
-font-size: 14pt;
+ddiv.benefit_headline {
+font-size: 17pt;
 font-weight: 100;
 padding-top: 0px;
 }
 div.benefit_detail {
-font-size: 12pt;
+font-size: 14pt;
 font-weight: 100;
 padding-top: 5px;
 }
 .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
-font-size: 19pt;
-line-height: 60px;
+font-size: 20pt;
+line-height: 70px;
 width: auto;
 }
 div.after_signup_buttons {
-font-size: 13pt;
+font-size: 16pt;
 margin-top: 30px;
 }
 div.legal {
-font-size: 11pt;
+font-size: 13pt;
 padding: 10px;
 }
 div.no_thanks {
-font-size: 12pt;
+font-size: 14pt;
 font-weight: 100;
 padding: 10px;
 position: relative;
