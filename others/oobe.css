@@ -713,11 +713,11 @@ color: #6aa9db;
 font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
 }
 	.prime-modal-title {
-	font-size: 14pt;
+	font-size: 16pt;
 	padding: 15px 25px 10px;
 	}
 	.prime-modal-body {
-		font-size: 14pt;
+		font-size: 16pt;
 		padding: 15px 20px;
 	}
 }
@@ -793,11 +793,11 @@ color: #6aa9db;
 font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
 }
 .prime-modal-title {
-	font-size: 16pt;
+	font-size: 18pt;
 	padding: 15px 25px 10px;
 	}
 	.prime-modal-body {
-		font-size: 16pt;
+		font-size: 18pt;
 		padding: 15px 20px;
 	}
 }
