@@ -591,46 +591,54 @@ a.no_thanks_link {
 		margin: 20px 0px 16px 0px;
 	}
 	div.benefit_headline {
-font-size: 11pt;
-font-weight: 100;
-padding-top: 0px;
-}
-div.benefit_detail {
-font-size: 9pt;
-font-weight: 100;
-padding-top: 5px;
-color: #949494;
-}
-.textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
-font-size: 15pt;
-line-height: 58px;
-padding:0px;
-width: auto;
-float:none;
-}
-div#signupButton_inner{
-	width:100px;
-	margin:0 auto;
-}
-div.after_signup_buttons {
-font-size: 11pt;
-margin-top: 30px;
-padding: 10px;
-}
-div.legal {
-font-size: 9pt;
-padding: 10px;
-}
-div.no_thanks {
-font-size: 9pt;
-float:none;
-width:100%;
-}
-div.no_thanks_inner
-{
-	margin:0 auto;
-	width:231px;
-}
+	font-size: 11pt;
+	font-weight: 100;
+	padding-top: 0px;
+	}
+	div.benefit_detail {
+	font-size: 9pt;
+	font-weight: 100;
+	padding-top: 5px;
+	color: #949494;
+	}
+	.textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
+	font-size: 15pt;
+	line-height: 58px;
+	padding:0px;
+	width: auto;
+	float:none;
+	}
+	div#signupButton_inner{
+		width:100px;
+		margin:0 auto;
+	}
+	div.after_signup_buttons {
+	font-size: 11pt;
+	margin-top: 30px;
+	padding: 10px;
+	}
+	div.legal {
+	font-size: 9pt;
+	padding: 10px;
+	}
+	div.no_thanks {
+	font-size: 9pt;
+	float:none;
+	width:100%;
+	}
+	div.no_thanks_inner
+	{
+		margin:0 auto;
+		width:231px;
+	}
+	.prime-modal-title {
+	font-size: 14pt;
+	padding: 15px 25px 10px;
+	}
+	.prime-modal-body {
+		font-size: 14pt;
+		padding: 15px 20px;
+	}
 
 }
 
