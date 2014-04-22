@@ -126,6 +126,7 @@ div.upsell_image {
     position: relative;
     top: 0px;
     width: 800px;
+    margin: 0 auto;
 }
 
 div.prime-modal-text {
