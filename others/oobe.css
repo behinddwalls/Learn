@@ -712,6 +712,14 @@ margin-left: 13%;
 color: #6aa9db;
 font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
 }
+	.prime-modal-title {
+	font-size: 14pt;
+	padding: 15px 25px 10px;
+	}
+	.prime-modal-body {
+		font-size: 14pt;
+		padding: 15px 20px;
+	}
 }
 
 @media all and (max-width: 1024px) and (min-width: 769px) {
@@ -784,6 +792,14 @@ margin-left: 13%;
 color: #6aa9db;
 font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
 }
+.prime-modal-title {
+	font-size: 16pt;
+	padding: 15px 25px 10px;
+	}
+	.prime-modal-body {
+		font-size: 16pt;
+		padding: 15px 20px;
+	}
 }
 
 @media all and (min-width: 1025px) {
