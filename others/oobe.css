@@ -601,6 +601,21 @@ font-weight: 100;
 padding-top: 5px;
 color: #949494;
 }
+.textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
+font-size: 19pt;
+line-height: 65px;
+padding-left: 27%;
+width: auto;
+}
+div.after_signup_buttons {
+font-size: 11pt;
+margin-top: 30px;
+padding: 10px;
+}
+div.legal {
+font-size: 9pt;
+padding: 10px;
+}
 
 }
 
