@@ -615,7 +615,6 @@ a.no_thanks_link {
 	}
 	div.after_signup_buttons {
 	font-size: 11pt;
-	margin-top: 30px;
 	padding: 10px;
 	}
 	div.legal {
@@ -697,7 +696,7 @@ width: auto;
 }
 div.after_signup_buttons {
 font-size: 13pt;
-margin-top: 30px;
+
 }
 div.legal {
 font-size: 11pt;
@@ -777,7 +776,6 @@ width: auto;
 }
 div.after_signup_buttons {
 font-size: 16pt;
-margin-top: 30px;
 }
 div.legal {
 font-size: 13pt;
@@ -857,7 +855,6 @@ width: auto;
 }
 div.after_signup_buttons {
 font-size: 16pt;
-margin-top: 30px;
 }
 div.legal {
 font-size: 13pt;
