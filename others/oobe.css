@@ -143,7 +143,7 @@ div.legal {
     font-size: 13pt;
     font-weight: 100;
     padding: 10px 30px 0;
-    
+    text-align:justify;
     color: #949494;
 }
 
