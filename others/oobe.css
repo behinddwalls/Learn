@@ -811,15 +811,7 @@ font-size: 17pt;
 font-weight: 100;
 padding-top: 6px;
 }
-	div.benefit_divider {
-		display: block;
-		height: 1px;
-		left: 0px;
-		position: relative;
-		top: 0px;
-		width: 760px;
-		margin: 20px 0px 16px 0px;
-	}
+	
 ddiv.benefit_headline {
 font-size: 17pt;
 font-weight: 100;
