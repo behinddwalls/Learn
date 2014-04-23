@@ -154,6 +154,7 @@ a.no_thanks_link {
     font-size: 16pt;
     font-weight: 100;
     color: #6aa9db;
+    width:auto;
 }
 
 .prime-modal-container {
@@ -624,7 +625,6 @@ a.no_thanks_link {
 	div.no_thanks {
 	font-size: 9pt;
 	float:none;
-	width:100%;
 	padding:0;
 	}
 	div.no_thanks_inner
