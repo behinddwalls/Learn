@@ -694,7 +694,7 @@ a.no_thanks_link {
 @media all and (max-width: 810px) and (min-width: 769px) {
 	div.benefit_divider {
 		
-		width: 740px;
+		width: 720px;
 
 	}
 	span.benefit_divider_start {
@@ -703,11 +703,11 @@ a.no_thanks_link {
 	}
 	span.benefit_divider_middle {
 		left: 50px;
-		width: 640px;
+		width: 620px;
 		
 	}
 	span.benefit_divider_end {
-		left: 690px;
+		left: 670px;
 		width: 50px;
 	
 	}
