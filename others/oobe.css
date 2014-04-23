@@ -589,18 +589,15 @@ a.no_thanks_link {
 
 	}
 	span.benefit_divider_start {
-		background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/divider._V401240454_.png") no-repeat 0px 0px;
 		width: 20px;
 	
 	}
 	span.benefit_divider_middle {
-		background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/divider._V401240454_.png") no-repeat -20px 0px;
 		left: 20px;
 		width: 232px;
 		
 	}
 	span.benefit_divider_end {
-		background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/divider._V401240454_.png") no-repeat -252px 0px;
 		left: 252px;
 		width: 20px;
 	
