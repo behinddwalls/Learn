@@ -679,7 +679,7 @@ a.no_thanks_link {
 	}
 }
 
-@media all and (max-width: 820px) {
+@media all and (min-width: 820px) {
 		div.upsell_image {
 	
 		background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/oobe_800x220_adult._V356494088_.jpg") no-repeat left top;
