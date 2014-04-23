@@ -625,6 +625,7 @@ a.no_thanks_link {
 	font-size: 9pt;
 	float:none;
 	width:100%;
+	padding:0;
 	}
 	div.no_thanks_inner
 	{
