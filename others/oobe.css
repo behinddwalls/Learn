@@ -691,6 +691,28 @@ a.no_thanks_link {
 	}
 }
 
+@media all and (max-width: 810px) and (min-width: 769px) {
+	div.benefit_divider {
+		
+		width: 740px;
+
+	}
+	span.benefit_divider_start {
+		width: 50px;
+	
+	}
+	span.benefit_divider_middle {
+		left: 50px;
+		width: 640px;
+		
+	}
+	span.benefit_divider_end {
+		left: 690px;
+		width: 50px;
+	
+	}
+}
+
 @media all and (max-width: 768px) and (min-width: 480px) {
 	div.headline {
 	font-size: 21pt;
