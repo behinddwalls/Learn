@@ -653,34 +653,53 @@ a.no_thanks_link {
 
 }
 
+@media all and (max-width: 559px) and (min-width: 480px) {
+		div.upsell_image {
+		padding-top: 10px;
+		background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/oobe_800x220_adult._V356494088_.jpg") no-repeat right top;
+		display: block;
+		height: 219px;
+		left: 0px;
+		position: relative;
+		top: 0px;
+		width: 465px;
+		margin: 0 auto;
+	}	
+}
+
+@media all and (max-width: 779px) and (min-width: 600px) {
+		div.upsell_image {
+		http://g-ec2.images-amazon.com/
+		padding-top: 10px;
+		background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/oobe_600X200_kid._V356494088_.jpg") no-repeat left top;
+		display: block;
+		height: 198px;
+		left: 0px;
+		position: relative;
+		top: 0px;
+		width: 465px;
+		margin: 0 auto;
+	}
+}
+
 @media all and (max-width: 768px) and (min-width: 480px) {
 	div.headline {
-font-size: 21pt;
-font-weight: 100;
-padding: 18px;
-}
-div.upsell_image {
-padding-top: 10px;
-background: url("images/G/01/marketing/prime/kindle_oobe/oobe_800x220_adult._V356494088_.jpg") no-repeat right top;
-display: block;
-height: 219px;
-left: 0px;
-position: relative;
-top: 0px;
-width: 465px;
-margin: 0 auto;
-}
+	font-size: 21pt;
+	font-weight: 100;
+	padding: 18px;
+	}
+
 	div.benefits_listing {
 		padding-top: 18px;
 	}
-div.container {
-padding: 18px 24px;
-}
-	div.benefits_title {
-font-size: 14pt;
-font-weight: 100;
-padding-top: 6px;
-}
+	div.container {
+	padding: 18px 24px;
+	}
+		div.benefits_title {
+	font-size: 14pt;
+	font-weight: 100;
+	padding-top: 6px;
+	}
 	div.benefit_divider {
 		display: block;
 		height: 1px;
