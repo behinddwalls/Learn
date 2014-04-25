@@ -620,7 +620,7 @@ a.no_thanks_link {
 	width: auto;
 	float:none;
 	}
-	div#signupButton_inner{
+	div.button_inner{
 		width:100px;
 		margin:0 auto;
 	}
