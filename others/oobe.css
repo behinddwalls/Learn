@@ -650,6 +650,11 @@ a.no_thanks_link {
 		font-size: 14pt;
 		padding: 15px 20px;
 	}
+	div.learn_more
+	{
+		
+		font-size:14pt;
+	}
 
 }
 
@@ -791,6 +796,11 @@ font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
 		font-size: 16pt;
 		padding: 15px 20px;
 	}
+		div.learn_more
+	{
+		
+		font-size:16pt;
+	}
 }
 
 @media all and (max-width: 1024px) and (min-width: 769px) {
@@ -851,6 +861,11 @@ font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
 	.prime-modal-body {
 		font-size: 18pt;
 		padding: 15px 20px;
+	}
+		div.learn_more
+	{
+		
+		font-size:18pt;
 	}
 }
 
