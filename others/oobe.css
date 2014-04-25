@@ -653,7 +653,7 @@ a.no_thanks_link {
 	div.learn_more
 	{
 		
-		font-size:14pt;
+		font-size:12pt;
 	}
 
 }
@@ -799,7 +799,7 @@ font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
 		div.learn_more
 	{
 		
-		font-size:16pt;
+		font-size:14pt;
 	}
 }
 
@@ -928,5 +928,10 @@ margin-left: 13%;
 color: #6aa9db;
 font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
 }
+div.learn_more
+	{
+		
+		font-size:20pt;
+	}
 }
 
