@@ -555,7 +555,7 @@ a.no_thanks_link {
   }
 }
 
-@media all and (max-width: 479px) {
+@media screen and (max-width: 479px) {
 	div.headline {
 		font-size: 14pt;
 		font-weight: 100;
@@ -657,7 +657,7 @@ a.no_thanks_link {
 
 }
 
-@media all and (max-width: 619px) and (min-width: 480px) {
+@media screen and (max-width: 619px) and (min-width: 480px) {
 		div.upsell_image {
 	
 		background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/oobe_800x220_adult._V356494088_.jpg") no-repeat right top;
@@ -671,7 +671,7 @@ a.no_thanks_link {
 	}	
 }
 
-@media all and (max-width: 819px) and (min-width: 620px) {
+@media screen and (max-width: 819px) and (min-width: 620px) {
 		div.upsell_image {
 	
 		background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/oobe_600X200_kid._V356494088_.jpg") no-repeat left top;
@@ -683,7 +683,7 @@ a.no_thanks_link {
 	}
 }
 
-@media all and (min-width: 820px) {
+@media screen and (min-width: 820px) {
 		div.upsell_image {
 	
 		background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/oobe_800x220_adult._V356494088_.jpg") no-repeat left top;
@@ -695,7 +695,7 @@ a.no_thanks_link {
 	}
 }
 
-@media all and (max-width: 810px) and (min-width: 769px) {
+@media screen and (max-width: 810px) and (min-width: 769px) {
 	div.benefit_divider {
 		
 		width: 720px;
@@ -717,7 +717,7 @@ a.no_thanks_link {
 	}
 }
 
-@media all and (max-width: 768px) and (min-width: 480px) {
+@media screen and (max-width: 768px) and (min-width: 480px) {
 	div.headline {
 	font-size: 21pt;
 	font-weight: 100;
@@ -802,7 +802,7 @@ font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
 	}
 }
 
-@media all and (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1024px) and (min-width: 769px) {
 	div.headline {
 font-size: 32pt;
 font-weight: 100;
@@ -868,7 +868,7 @@ font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
 	}
 }
 
-@media all and (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
 	div.headline {
 font-size: 38pt;
 font-weight: 100;
