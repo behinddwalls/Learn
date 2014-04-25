@@ -621,8 +621,7 @@ a.no_thanks_link {
 	float:none;
 	}
 	div.button_inner{
-		width:100px;
-		margin:0 auto;
+		text-align:center;
 	}
 	div.after_signup_buttons {
 	font-size: 11pt;
