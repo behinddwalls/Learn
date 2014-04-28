@@ -781,11 +781,7 @@ div.no_thanks {
 font-size: 12pt;
 font-weight: 100;
 padding: 10px;
-position: relative;
-top: 20px;
-margin-left: 13%;
-color: #6aa9db;
-font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
+top: 10px;
 }
 	.prime-modal-title {
 	font-size: 16pt;
