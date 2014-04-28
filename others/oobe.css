@@ -559,7 +559,7 @@ a.no_thanks_link {
 	div.headline {
 		font-size: 14pt;
 		font-weight: 100;
-		padding: 16px;
+		padding: 10px;
 	}
 	div.upsell_image {
 		padding-top: 10px;
@@ -576,7 +576,7 @@ a.no_thanks_link {
 		padding-top: 16px;
 	}
 	div.container {
-		padding: 16px 24px;
+		padding: 10px 14px;
 	}
 	div.benefits_title {
 		font-size: 11pt;
@@ -663,10 +663,7 @@ a.no_thanks_link {
 	
 		background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/oobe_800x220_adult._V356494088_.jpg") no-repeat right top;
 	
-		height: 219px;
-		
-	
-	
+		height: 210px;
 		width: 472px;
 		
 	}	
@@ -723,14 +720,14 @@ a.no_thanks_link {
 	div.headline {
 	font-size: 21pt;
 	font-weight: 100;
-	padding: 18px;
+	padding: 12px;
 	}
 
 	div.benefits_listing {
 		padding-top: 18px;
 	}
 	div.container {
-	padding: 18px 24px;
+	padding: 12px 16px;
 	}
 		div.benefits_title {
 	font-size: 14pt;
