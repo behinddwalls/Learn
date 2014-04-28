@@ -134,6 +134,22 @@ div.upsell_image {
     width: 800px;
     margin: 0 auto;
 }
+div.upsell_container
+{
+	max-width: 100%;
+	text-align: center;
+	height: auto;
+	position: relative;
+	display: block;
+	margin: 1rem 0;
+}
+div.upsell_container img
+{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
 
 div.prime-modal-text {
     padding-bottom: 10px;
