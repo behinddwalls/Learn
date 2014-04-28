@@ -16,7 +16,7 @@ background: radial-gradient(ellipse at center, rgba(62,63,62,1) 4%,rgba(14,14,14
 }
 body
 {
-	width:1369px;
+	max-width:1369px;
 	margin:0 auto;
 	
 }
