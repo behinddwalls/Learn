@@ -846,11 +846,7 @@ div.no_thanks {
 font-size: 14pt;
 font-weight: 100;
 padding: 10px;
-position: relative;
 top: 20px;
-margin-left: 13%;
-color: #6aa9db;
-font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
 }
 .prime-modal-title {
 	font-size: 18pt;
@@ -912,11 +908,7 @@ div.no_thanks {
 font-size: 16pt;
 font-weight: 100;
 padding: 10px;
-position: relative;
 top: 20px;
-margin-left: 13%;
-color: #6aa9db;
-font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
 }
 div.learn_more
 	{
