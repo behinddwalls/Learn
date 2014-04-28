@@ -417,9 +417,21 @@ a.no_thanks_link {
 
 
 #logo {
-     margin-bottom: 10px;
-     margin-top: 10px;
-     float:left;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        float:left;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	display: block;
+}
+
+#logo img
+{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
 }
 
 .logo {
