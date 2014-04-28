@@ -690,43 +690,34 @@ a.no_thanks_link {
 		
 		font-size:12pt;
 	}
+	#logo 
+	{
+		float:none;
+	}
+	#logo img
+	{
+		height:30px;	
+	}
 
 }
 
-@media all and (max-width: 619px) and (min-width: 480px) {
-		div.upsell_image {
-	
-		background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/oobe_800x220_adult._V356494088_.jpg") no-repeat right top;
-	
-		height: 210px;
-		width: 472px;
-		
-	}	
+@media all and (max-width: 510px) and (min-width: 480px) 
+{
+	#logo img
+	{
+		height:30px;	
+	}
+
 }
 
-@media all and (max-width: 819px) and (min-width: 620px) {
-		div.upsell_image {
-	
-		background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/oobe_600X200_kid._V356494088_.jpg") no-repeat left top;
-	
-		height: 198px;
-	
-		width: 600px;
-	
+@media all and (max-width: 767px) and (min-width: 511px) 
+{
+	#logo img
+	{
+		height:40px;	
 	}
 }
 
-@media all and (min-width: 820px) {
-		div.upsell_image {
-	
-		background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/oobe_800x220_adult._V356494088_.jpg") no-repeat left top;
-	
-		height: 219px;
-	
-		width: 800px;
-		
-	}
-}
 
 @media all and (max-width: 810px) and (min-width: 769px) {
 	div.benefit_divider {
@@ -949,6 +940,12 @@ div.learn_more
 	{
 		
 		font-size:20pt;
+	}
+	div#logo
+	{
+		margin-bottom:-60px;
+		float:none;
+		
 	}
 }
 
