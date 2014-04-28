@@ -141,7 +141,7 @@ div.upsell_container
 	height: auto;
 	position: relative;
 	display: block;
-	margin: 1rem 0;
+	margin:0;
 }
 div.upsell_container img
 {
