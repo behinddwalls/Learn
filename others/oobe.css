@@ -625,11 +625,11 @@ a.no_thanks_link {
 		text-align:center;
 	}
 	div.after_signup_buttons {
-	font-size: 11pt;
+	font-size: 10pt;
 	padding: 10px;
 	}
 	div.legal {
-	font-size: 9pt;
+	font-size: 8pt;
 	padding: 10px;
 	}
 	div.no_thanks {
@@ -770,11 +770,11 @@ line-height: 60px;
 width: auto;
 }
 div.after_signup_buttons {
-font-size: 13pt;
+font-size: 12pt;
 
 }
 div.legal {
-font-size: 11pt;
+font-size: 9pt;
 padding: 10px;
 }
 div.no_thanks {
