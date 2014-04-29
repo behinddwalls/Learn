@@ -596,17 +596,7 @@ a.no_thanks_link {
 		font-weight: 100;
 		padding: 10px;
 	}
-	div.upsell_image {
-		padding-top: 10px;
-		background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/oobe_800x220_adult._V356494088_.jpg") no-repeat left top;
-		display: block;
-		height: 219px;
-		left: 0px;
-		position: relative;
-		top: 0px;
-		width: 344px;
-		margin: 0 auto;
-	}
+	
 	div.benefits_listing {
 		padding-top: 16px;
 	}
@@ -697,6 +687,10 @@ a.no_thanks_link {
 	#logo img
 	{
 		height:30px;	
+	}
+	.waitingDialogText 
+	{
+    		font-size: 14pt;
 	}
 
 }
@@ -822,6 +816,10 @@ top: 10px;
 		
 		font-size:14pt;
 	}
+		.waitingDialogText 
+	{
+    		font-size: 16pt;
+	}
 }
 
 @media all and (max-width: 1023px) and (min-width: 768px) {
@@ -886,6 +884,10 @@ top: 20px;
 	{
 		
 		font-size:18pt;
+	}
+		.waitingDialogText 
+	{
+    		font-size: 18pt;
 	}
 }
 
