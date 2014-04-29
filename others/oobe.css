@@ -945,7 +945,7 @@ div.learn_more
 	}
 	div#logo
 	{
-		margin-bottom:-60px;
+		margin: 10px 230px -60px 230px;
 		float:none;
 		
 	}
