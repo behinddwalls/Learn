@@ -633,10 +633,12 @@ a.no_thanks_link {
 
     .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
         font-size: 19pt;
-        line-height: 60px;
+        line-height: 55px;
         width: auto;
     }
-
+    .amznButtonPrice, .amznButtonPricePressed {
+        min-height:55px !important;
+    }
     div.after_signup_buttons {
         font-size: 12pt;
     }
