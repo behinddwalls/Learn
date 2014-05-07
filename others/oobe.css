@@ -490,13 +490,13 @@ a.no_thanks_link {
 
     .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
         font-size: 15pt;
-        line-height: 50px;
+        line-height: 50px !important;
         padding: 0px;
         width: auto;
         float: right;
     }
     .amznButtonPrice, .amznButtonPricePressed {
-        min-height:50px;
+        min-height:50px !important;
     }
 
     div.button_inner {
