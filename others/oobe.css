@@ -495,7 +495,7 @@ a.no_thanks_link {
         width: auto;
         float: right;
     }
-    .amznButtonPrice{
+    .amznButtonPrice, .amznButtonPricePressed {
         min-height:50px;
     }
 
