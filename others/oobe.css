@@ -435,7 +435,7 @@ a.no_thanks_link {
     }
 }
 
-@media all and (max-width: 479px) {
+@media all and (max-width: 479px and min-width:400px) {
     div.headline {
         font-size: 14pt;
         font-weight: 100;
@@ -490,10 +490,13 @@ a.no_thanks_link {
 
     .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
         font-size: 15pt;
-        line-height: 58px;
+        line-height: 50px;
         padding: 0px;
         width: auto;
-        float: none;
+        float: right;
+    }
+    .amznButtonPrice{
+        min-height:50px;
     }
 
     div.button_inner {
@@ -535,12 +538,8 @@ a.no_thanks_link {
         font-size: 12pt;
     }
 
-    #logo {
-        float: none;
-    }
-
     #logo img {
-        height: 30px;
+        height: 34px;
     }
 
     .waitingDialogText {
