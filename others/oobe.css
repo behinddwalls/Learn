@@ -1,24 +1,24 @@
 body, html {
-     background-color: #0E0E0E;
-     background: rgb(14,14,14); /* Old browsers */
-
-background: -moz-radial-gradient(center top, ellipse cover, rgba(62,63,62,1) 4%, rgba(14,14,14,1) 100%); /* FF3.6+ */
-
-background: -webkit-gradient(radial, center top, 0px, center center, 100%, color-stop(4%,rgba(62,63,62,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
-
-background: -webkit-radial-gradient(center top, ellipse cover, rgba(62,63,62,1) 4%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
-
-background: radial-gradient(ellipse at center, rgba(62,63,62,1) 4%,rgba(14,14,14,1) 100%); /* W3C */ 
-     color: #FFFFFF;
-     font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
-     margin: 0pt;
-     padding: 0pt;
+    background-color: #0E0E0E;
+    background: rgb(14,14,14);
+ /* Old browsers */
+    background: -moz-radial-gradient(center top, ellipse cover, rgba(62,63,62,1) 4%, rgba(14,14,14,1) 100%);
+ /* FF3.6+ */
+    background: -webkit-gradient(radial, center top, 0px, center center, 100%, color-stop(4%,rgba(62,63,62,1)), color-stop(100%,rgba(14,14,14,1)));
+ /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center top, ellipse cover, rgba(62,63,62,1) 4%,rgba(14,14,14,1) 100%);
+ /* Chrome10+,Safari5.1+ */
+    background: radial-gradient(ellipse at center, rgba(62,63,62,1) 4%,rgba(14,14,14,1) 100%);
+ /* W3C */
+    color: #FFFFFF;
+    font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
+    margin: 0pt;
+    padding: 0pt;
 }
-body
-{
-	max-width:1369px;
-	margin:0 auto;
-	
+
+body {
+    max-width: 1369px;
+    margin: 0 auto;
 }
 
 .container {
@@ -51,11 +51,11 @@ div.benefits_listing {
 
 div.learn_more {
     font-size: 23px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
 div.clear_both {
-    clear:both;
+    clear: both;
 }
 
 div.signup {
@@ -78,8 +78,8 @@ div.no_thanks {
     font-weight: 100;
     padding-right: 40px;
     padding-bottom: 20px;
-    position:relative;
-    top:20px;
+    position: relative;
+    top: 20px;
     float: right;
     color: #6aa9db;
     font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
@@ -93,24 +93,13 @@ div.benefit_detail {
 }
 
 div.benefit_divider {
-     display: block;
-     height: 1px;
-     left: 0px;
-     position: relative;
-     top: 0px;
-     width: 760px;
-     margin: 25px 0px 20px 0px;
-}
-
-div.benefit_divider_old {
-  background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/divider._V401240454_.png") no-repeat left top;
-     display: block;
-     height: 1px;
-     left: 0px;
-     position: relative;
-     top: 0px;
-     width: 760px;
-     margin: 15px 0px 10px 0px;
+    display: block;
+    height: 1px;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 760px;
+    margin: 25px 0px 20px 0px;
 }
 
 div.benefit_divider_old2 {
@@ -123,32 +112,21 @@ div.bottomBox {
     padding-top: 20px;
     padding-bottom: 0px;
 }
-div.upsell_image {
-    padding-top: 10px;
-    background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/oobe_800x220_adult._V356494088_.jpg") no-repeat left top;
-    display: block;
-    height: 219px;
-    left: 0px;
+
+div.upsell_container {
+    max-width: 100%;
+    text-align: center;
+    height: auto;
     position: relative;
-    top: 0px;
-    width: 800px;
+    display: block;
+    margin: 0;
+}
+
+div.upsell_container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
     margin: 0 auto;
-}
-div.upsell_container
-{
-	max-width: 100%;
-	text-align: center;
-	height: auto;
-	position: relative;
-	display: block;
-	margin:0;
-}
-div.upsell_container img
-{
-	max-width: 100%;
-	height: auto;
-	display: block;
-	margin: 0 auto;
 }
 
 div.prime-modal-text {
@@ -166,7 +144,7 @@ div.legal {
     font-size: 13pt;
     font-weight: 100;
     padding: 10px 30px 0;
-    text-align:justify;
+    text-align: justify;
     color: #949494;
 }
 
@@ -176,7 +154,7 @@ a.no_thanks_link {
     font-size: 16pt;
     font-weight: 100;
     color: #6aa9db;
-    width:auto;
+    width: auto;
 }
 
 .prime-modal-container {
@@ -190,7 +168,6 @@ a.no_thanks_link {
     padding: 30px 40px 15px;
 }
 
-
 .prime-modal-body {
     background-color: #202020;
     color: #949494;
@@ -199,7 +176,7 @@ a.no_thanks_link {
 }
 
 .waitingDialogText {
-	background-color: #202020;
+    background-color: #202020;
     color: #949494;
     font-size: 18pt;
 }
@@ -209,10 +186,11 @@ a.no_thanks_link {
 }
 
 .prime-modal-button {
-	margin-left: 410px;
-    padding-top: 10px; 
-    padding-bottom: 10px; 
+    margin-left: 410px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
 .prime-modal-button a {
     color: #FFFFFF;
     font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
@@ -221,96 +199,46 @@ a.no_thanks_link {
     padding-left: 45px;
 }
 
-.amznButtonPrice {
-  min-height: 60px;
-  vertical-align: middle;
-  background: none;
-  border-style: solid;
-  border-width: 0 22px;
-  border-color: rgba(0, 0, 0, 0);
-  -webkit-border-image: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/assets._V402170361_.png") 192 29 64 29 stretch;  
-  -moz-border-image: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/assets._V402170361_.png") 192 29 64 29 stretch;
-  white-space: nowrap;
-}
-
-.amznButtonPricePressed {
-  min-height: 60px;
-  vertical-align: middle;
-  background: none;
-  border-style: solid;
-  border-width: 0 22px;
-  border-color: rgba(0, 0, 0, 0);
-  -webkit-border-image: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/assets._V402170361_.png") 256 29 0 29 stretch;
-  -moz-border-image: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/assets._V402170361_.png") 256 29 0 29 stretch;
-  white-space: nowrap;
-}
-
 .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
-  font-family:  helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
-  font-size: 20pt;
-  line-height: 80px;
-  color: white;
-  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-/* BUTTONS */
-.amznButton {
-  min-height: 30px;
-  vertical-align: middle;
-  background: none;
-  border-style: solid;
-  border-width: 0 22px;
-  border-color: rgba(0, 0, 0, 0);
-  -webkit-border-image: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/assets._V402170361_.png") 64 29 192 29 stretch;  
-  -moz-border-image: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/assets._V402170361_.png") 64 29 192 29 stretch;
-  white-space: nowrap;
-}
-
-.amznButtonPressed {
-  min-height: 30px;
-  vertical-align: middle;
-  background: none;
-  border-style: solid;
-  border-width: 0 22px;
-  border-color: rgba(0, 0, 0, 0);
-  -webkit-border-image: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/assets._V402170361_.png") 128 29 128 29 stretch;  
-  -moz-border-image: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/assets._V402170361_.png") 128 29 128 29 stretch;
-  white-space: nowrap;
+    font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
+    font-size: 20pt;
+    line-height: 80px;
+    color: white;
+    text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 
 
 #wrapper {
-     margin-left: auto;
-     margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .stress_text {
-    font-weight:bold;
-    font-size:120%;
+    font-weight: bold;
+    font-size: 120%;
 }
 
-
 .accordionButton {
-     border-top: 1px solid #666666;
-     cursor: pointer;
-     float: left;
-     padding-bottom: 10px;
-     padding-top: 10px;
-     /*width: 100%;*/
+    border-top: 1px solid #666666;
+    cursor: pointer;
+    float: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+     /*width: 100%;*/;
 }
 
 .border {
-     border-bottom: 1px solid #666666;
-     /*width: 100%;*/
+    border-bottom: 1px solid #666666;
+     /*width: 100%;*/;
 }
 
 .accordionContent {
-     float: left;
-     padding-bottom: 20px;
-     /*width: 100%;*/
+    float: left;
+    padding-bottom: 20px;
+     /*width: 100%;*/;
 }
 
 .on {
@@ -320,634 +248,571 @@ a.no_thanks_link {
 }
 
 .carousel-image-and-text {
-     height: 230px;
-     margin: 0pt auto;
+    height: 230px;
+    margin: 0pt auto;
 }
 
 .carousel-image-and-text .touchcarousel-item {
-     height: 300px;
-     margin-right: 10px;
+    height: 300px;
+    margin-right: 10px;
 }
 
 .carousel-image-and-text .item-block {
-     display: block;
-     height: 300px;
+    display: block;
+    height: 300px;
 }
 
 .carousel-image-and-text .item-block img, .carousel-image-and-text .item-block h4, .carousel-image-and-text .item-block p {
-     display: block;
-     float: left;
-     margin: 0pt;
-     position: relative;
+    display: block;
+    float: left;
+    margin: 0pt;
+    position: relative;
 }
 
 .carousel-image-and-text .item-block h4, .carousel-image-and-text .item-block p {
-     display: none;
+    display: none;
 }
 
 .carousel-image-and-text .item-block img {
-     border: 0pt none;
-     padding: 0pt;
+    border: 0pt none;
+    padding: 0pt;
 }
 
 .carousel-image-and-text .item-block {
-     color: inherit;
-     text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 .carousel-image-and-text .item-block h4 {
-     -moz-transition: color 0.2s ease-out 0s;
-     color: #000000;
-     font: bold 13px/20px helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
-     height: auto;
-     padding: 2px 0pt 0pt 6px;
-     width: 158px;
+    -moz-transition: color 0.2s ease-out 0s;
+    color: #000000;
+    font: bold 13px/20px helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
+    height: auto;
+    padding: 2px 0pt 0pt 6px;
+    width: 158px;
 }
 
 .carousel-image-and-text .item-block:hover h4 {
-     color: #1873C9;
+    color: #1873C9;
 }
 
 .carousel-image-and-text .item-block p {
-     color: #555555;
-     font: 13px/20px helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
-     padding: 0pt 0pt 0pt 6px;
-     width: 158px;
+    color: #555555;
+    font: 13px/20px helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
+    padding: 0pt 0pt 0pt 6px;
+    width: 158px;
 }
 
 .carousel-image-and-text .scrollbar-holder {
-     bottom: 0pt;
-     height: 1px;
-     left: 0pt;
-     right: 0pt;
+    bottom: 0pt;
+    height: 1px;
+    left: 0pt;
+    right: 0pt;
 }
 
 .carousel-image-and-text .scrollbar {
-     background-color: #666666 ! important;
-     bottom: 0pt;
+    background-color: #666666 ! important;
+    bottom: 0pt;
 }
 
 .text_container {
-     float: left;
+    float: left;
 }
 
 .text_container h2 {
-     margin: 0pt;
-     padding-top: 20px;
+    margin: 0pt;
+    padding-top: 20px;
 }
 
 .text_container p {
-     margin: 0pt;
+    margin: 0pt;
 }
 
 .left {
-     float: left;
+    float: left;
 }
 
 .right {
-     float: right;
+    float: right;
 }
 
 .image_center {
-     float: left;
-     padding-left: 30px;
-     text-align: center;
-     width: 220px;
+    float: left;
+    padding-left: 30px;
+    text-align: center;
+    width: 220px;
 }
-
 
 #logo {
-        margin-bottom: 10px;
-        margin-top: 10px;
-        float:left;
-	max-width: 100%;
-	height: auto;
-	position: relative;
-	display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    float: left;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
 }
 
-#logo img
-{
-	max-width: 100%;
-	height: auto;
-	display: block;
-	margin: 0 auto;
+#logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .logo {
-     height: 100px;
-     text-align: right;
+    height: 100px;
+    text-align: right;
 }
 
 .headline_box {
-     padding-left: 60px;
-     padding-top: 0px;
-     padding-bottom: 5px;
+    padding-left: 60px;
+    padding-top: 0px;
+    padding-bottom: 5px;
 }
 
 .end {
-     float: right;
-     padding-right: 20px;
-     width: 41%;
+    float: right;
+    padding-right: 20px;
+    width: 41%;
 }
 
 .end img {
-     width: 400px;
+    width: 400px;
 }
 
 .endtext {
-     padding-left: 60px;
+    padding-left: 60px;
 }
 
 .cta {
-     padding-left: 60px;
-     width: 80%;
+    padding-left: 60px;
+    width: 80%;
 }
 
 .endtext p {
-     font-weight: 100;
-     margin-top: 10px;
-	 margin-right: 5px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-right: 5px;
 }
 
 .table {
-	display: table-row;
+    display: table-row;
 }
 
 .table-cell {
-	display: table-cell;
-}
-
-	span.benefit_divider_start {
-	  background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/divider._V401240454_.png") no-repeat 0 0;
-		 display: block;
-		 height: 1px;
-		 left: 0px;
-		 position: relative;
-		 width: 50px;
-                 margin-top: -1px;
-	}
-	span.benefit_divider_middle {
-	  background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/divider._V401240454_.png") no-repeat -50px 0px;
-		 display: block;
-		 height: 1px;
-		 left: 50px;
-		 position: relative;
-		 width: 660px;
-                 background-position: -50px 0px;
-                 margin-top: -1px;
-	}
-	span.benefit_divider_end {
-	  background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/divider._V401240454_.png") no-repeat -710px 0px;
-		 display: block;
-		 height: 1px;
-		 left: 710px;
-		 position: relative;
-		 width: 50px;
-                 background-position: -710px 0px;
-                 margin-top: -1px;
-	}
-
-
-
-
-
-
-.spinner
-{
--moz-animation:spinnerRotateClockwise 5s;
--webkit-animation:spinnerRotateClockwise 5s;
-
-  -webkit-animation-duration: 4s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -webkit-transform-origin: center;
-
-  -moz-animation-duration: 4s;
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-timing-function: linear;
-  -moz-transform-origin: center;
- 
-  background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/assets._V402170361_.png") no-repeat left top;
-  width: 48px;
-  height: 48px;
-  background-position: -8px -8px;
+    display: table-cell;
 }
 
 
-.spinner
-{
--moz-animation:spinnerRotateClockwise 5s;
--webkit-animation:spinnerRotateClockwise 5s;
+@-moz-keyframes spinnerRotateClockwise /* Firefox */ {
+    from {
+        -moz-transform: rotate(0deg);
+    }
 
-  -webkit-animation-duration: 4s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -webkit-transform-origin: center;
-
-  -moz-animation-duration: 4s;
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-timing-function: linear;
-  -moz-transform-origin: center;
- 
-  background: url("https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/kindle_oobe/assets._V402170361_.png") no-repeat left top;
-  width: 48px;
-  height: 48px;
-  background-position: -8px -8px;
+    to {
+        -moz-transform: rotate(1080deg);
+    }
 }
 
+@-webkit-keyframes spinnerRotateClockwise /* Safari and Chrome */ {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
 
-@-moz-keyframes spinnerRotateClockwise /* Firefox */
-{
-  from {
-    -moz-transform: rotate(0deg);
-  }
-
-  to {
-    -moz-transform: rotate(1080deg);
-  }
+    to {
+        -webkit-transform: rotate(1080deg);
+    }
 }
 
-@-webkit-keyframes spinnerRotateClockwise /* Safari and Chrome */
-{
-  from {
-    -webkit-transform: rotate(0deg);
-  }
+@-o-keyframes spinnerRotateClockwise /* Opera */ {
+    from {
+        -o-transform: rotate(0deg);
+    }
 
-  to {
-    -webkit-transform: rotate(1080deg);
-  }
-}
-
-@-o-keyframes spinnerRotateClockwise /* Opera */
-{
-  from {
-    -o-transform: rotate(0deg);
-  }
-
-  to {
-    -o-transform: rotate(1080deg);
-  }
+    to {
+        -o-transform: rotate(1080deg);
+    }
 }
 
 @media all and (max-width: 479px) {
-	div.headline {
-		font-size: 14pt;
-		font-weight: 100;
-		padding: 10px;
-	}
-	
-	div.benefits_listing {
-		padding-top: 16px;
-	}
-	div.container {
-		padding: 10px 14px;
-	}
-	div.benefits_title {
-		font-size: 11pt;
-		font-weight: 100;
-		padding-top: 6px;
-	}
-	div.benefit_divider {
-		
-		width: 272px;
-		margin:10px 0px 6px 0px;
+    div.headline {
+        font-size: 14pt;
+        font-weight: 100;
+        padding: 10px;
+    }
 
-	}
-	span.benefit_divider_start {
-		width: 20px;
-	
-	}
-	span.benefit_divider_middle {
-		left: 20px;
-		width: 232px;
-		
-	}
-	span.benefit_divider_end {
-		left: 252px;
-		width: 20px;
-	
-	}
-	div.benefit_headline {
-	font-size: 11pt;
-	font-weight: 100;
-	padding-top: 0px;
-	}
-	div.benefit_detail {
-	font-size: 9pt;
-	font-weight: 100;
-	padding-top: 5px;
-	color: #949494;
-	}
-	.textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
-	font-size: 15pt;
-	line-height: 58px;
-	padding:0px;
-	width: auto;
-	float:none;
-	}
-	div.button_inner{
-		text-align:center;
-	}
-	div.after_signup_buttons {
-	font-size: 10pt;
-	padding: 10px;
-	}
-	div.legal {
-	font-size: 8pt;
-	padding: 10px;
-	}
-	div.no_thanks {
-	font-size: 9pt;
-	float:none;
-	padding:0;
-	}
-	div.no_thanks_inner
-	{
-		margin:0 auto;
-		width:231px;
-	}
-	.prime-modal-title {
-	font-size: 14pt;
-	padding: 15px 25px 10px;
-	}
-	.prime-modal-body {
-		font-size: 14pt;
-		padding: 15px 20px;
-	}
-	div.learn_more
-	{
-		
-		font-size:12pt;
-	}
-	#logo 
-	{
-		float:none;
-	}
-	#logo img
-	{
-		height:30px;	
-	}
-	.waitingDialogText 
-	{
-    		font-size: 14pt;
-	}
+    div.benefits_listing {
+        padding-top: 16px;
+    }
 
+    div.container {
+        padding: 10px 14px;
+    }
+
+    div.benefits_title {
+        font-size: 11pt;
+        font-weight: 100;
+        padding-top: 6px;
+    }
+
+    div.benefit_divider {
+        width: 272px;
+        margin: 10px 0px 6px 0px;
+    }
+
+    span.benefit_divider_start {
+        width: 20px;
+    }
+
+    span.benefit_divider_middle {
+        left: 20px;
+        width: 232px;
+    }
+
+    span.benefit_divider_end {
+        left: 252px;
+        width: 20px;
+    }
+
+    div.benefit_headline {
+        font-size: 11pt;
+        font-weight: 100;
+        padding-top: 0px;
+    }
+
+    div.benefit_detail {
+        font-size: 9pt;
+        font-weight: 100;
+        padding-top: 5px;
+        color: #949494;
+    }
+
+    .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
+        font-size: 15pt;
+        line-height: 58px;
+        padding: 0px;
+        width: auto;
+        float: none;
+    }
+
+    div.button_inner {
+        text-align: center;
+    }
+
+    div.after_signup_buttons {
+        font-size: 10pt;
+        padding: 10px;
+    }
+
+    div.legal {
+        font-size: 8pt;
+        padding: 10px;
+    }
+
+    div.no_thanks {
+        font-size: 9pt;
+        float: none;
+        padding: 0;
+    }
+
+    div.no_thanks_inner {
+        margin: 0 auto;
+        width: 231px;
+    }
+
+    .prime-modal-title {
+        font-size: 14pt;
+        padding: 15px 25px 10px;
+    }
+
+    .prime-modal-body {
+        font-size: 14pt;
+        padding: 15px 20px;
+    }
+
+    div.learn_more {
+        font-size: 12pt;
+    }
+
+    #logo {
+        float: none;
+    }
+
+    #logo img {
+        height: 30px;
+    }
+
+    .waitingDialogText {
+        font-size: 14pt;
+    }
 }
 
-@media all and (max-width: 510px) and (min-width: 480px) 
-{
-	#logo img
-	{
-		height:30px;	
-	}
-
+@media all and (max-width: 510px) and (min-width: 480px) {
+    #logo img {
+        height: 30px;
+    }
 }
 
-@media all and (max-width: 767px) and (min-width: 511px) 
-{
-	#logo img
-	{
-		height:40px;	
-	}
+@media all and (max-width: 767px) and (min-width: 511px) {
+    #logo img {
+        height: 40px;
+    }
 }
-
 
 @media all and (max-width: 810px) and (min-width: 769px) {
-	div.benefit_divider {
-		
-		width: 720px;
-		margin:12px 0px 10px 0px;
+    div.benefit_divider {
+        width: 720px;
+        margin: 12px 0px 10px 0px;
+    }
 
-	}
-	span.benefit_divider_start {
-		width: 50px;
-	
-	}
-	span.benefit_divider_middle {
-		left: 50px;
-		width: 620px;
-		
-	}
-	span.benefit_divider_end {
-		left: 670px;
-		width: 50px;
-	
-	}
+    span.benefit_divider_start {
+        width: 50px;
+    }
+
+    span.benefit_divider_middle {
+        left: 50px;
+        width: 620px;
+    }
+
+    span.benefit_divider_end {
+        left: 670px;
+        width: 50px;
+    }
 }
 
 @media all and (max-width: 767px) and (min-width: 480px) {
-	div.headline {
-	font-size: 21pt;
-	font-weight: 100;
-	padding: 12px;
-	}
+    div.headline {
+        font-size: 21pt;
+        font-weight: 100;
+        padding: 12px;
+    }
 
-	div.benefits_listing {
-		padding-top: 18px;
-	}
-	div.container {
-	padding: 12px 16px;
-	}
-		div.benefits_title {
-	font-size: 13pt;
-	font-weight: 100;
-	padding-top: 6px;
-	}
-	div.benefit_divider {
-		
-		width: 450px;
-		margin:12px 0px 8px 0px;
+    div.benefits_listing {
+        padding-top: 18px;
+    }
 
-	}
-	span.benefit_divider_start {
-		width: 45px;
-	
-	}
-	span.benefit_divider_middle {
-		left: 45px;
-		width: 340px;
-		
-	}
-	span.benefit_divider_end {
-		left: 385px;
-		width: 45px;
-	
-	}
-div.benefit_headline {
-font-size: 13pt;
-font-weight: 100;
-padding-top: 0px;
-}
-div.benefit_detail {
-font-size: 12pt;
-font-weight: 100;
-padding-top: 5px;
-}
-.textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
-font-size: 19pt;
-line-height: 60px;
-width: auto;
-}
-div.after_signup_buttons {
-font-size: 12pt;
+    div.container {
+        padding: 12px 16px;
+    }
 
-}
-div.legal {
-font-size: 9pt;
-padding: 10px;
-}
-div.no_thanks {
-font-size: 12pt;
-font-weight: 100;
-padding: 10px;
-top: 10px;
-}
-	.prime-modal-title {
-	font-size: 16pt;
-	padding: 15px 25px 10px;
-	}
-	.prime-modal-body {
-		font-size: 16pt;
-		padding: 15px 20px;
-	}
-		div.learn_more
-	{
-		
-		font-size:14pt;
-	}
-		.waitingDialogText 
-	{
-    		font-size: 16pt;
-	}
+    div.benefits_title {
+        font-size: 13pt;
+        font-weight: 100;
+        padding-top: 6px;
+    }
+
+    div.benefit_divider {
+        width: 450px;
+        margin: 12px 0px 8px 0px;
+    }
+
+    span.benefit_divider_start {
+        width: 45px;
+    }
+
+    span.benefit_divider_middle {
+        left: 45px;
+        width: 340px;
+    }
+
+    span.benefit_divider_end {
+        left: 385px;
+        width: 45px;
+    }
+
+    div.benefit_headline {
+        font-size: 13pt;
+        font-weight: 100;
+        padding-top: 0px;
+    }
+
+    div.benefit_detail {
+        font-size: 12pt;
+        font-weight: 100;
+        padding-top: 5px;
+    }
+
+    .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
+        font-size: 19pt;
+        line-height: 60px;
+        width: auto;
+    }
+
+    div.after_signup_buttons {
+        font-size: 12pt;
+    }
+
+    div.legal {
+        font-size: 9pt;
+        padding: 10px;
+    }
+
+    div.no_thanks {
+        font-size: 12pt;
+        font-weight: 100;
+        padding: 10px;
+        top: 10px;
+    }
+
+    .prime-modal-title {
+        font-size: 16pt;
+        padding: 15px 25px 10px;
+    }
+
+    .prime-modal-body {
+        font-size: 16pt;
+        padding: 15px 20px;
+    }
+
+    div.learn_more {
+        font-size: 14pt;
+    }
+
+    .waitingDialogText {
+        font-size: 16pt;
+    }
 }
 
 @media all and (max-width: 1023px) and (min-width: 768px) {
-	div.headline {
-font-size: 32pt;
-font-weight: 100;
-padding: 20px;
-}
+    div.headline {
+        font-size: 32pt;
+        font-weight: 100;
+        padding: 20px;
+    }
 
-	div.benefits_listing {
-		padding-top: 18px;
-	}
-	div.benefit_divider {
-		margin: 16px 0px 12px 0px;
-	}
-div.container {
-padding: 20px 28px;
-}
-div.benefits_title {
-font-size: 16pt;
-font-weight: 100;
-padding-top: 6px;
-}
-	
-div.benefit_headline {
-font-size: 16pt;
-font-weight: 100;
-padding-top: 0px;
-}
-div.benefit_detail {
-font-size: 13pt;
-font-weight: 100;
-padding-top: 5px;
-}
-.textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
-font-size: 20pt;
-line-height: 70px;
-width: auto;
-}
-div.after_signup_buttons {
-font-size: 16pt;
-}
-div.legal {
-font-size: 12pt;
-padding: 10px;
-}
-div.no_thanks {
-font-size: 14pt;
-font-weight: 100;
-padding: 10px;
-top: 20px;
-}
-.prime-modal-title {
-	font-size: 18pt;
-	padding: 15px 25px 10px;
-	}
-	.prime-modal-body {
-		font-size: 18pt;
-		padding: 15px 20px;
-	}
-		div.learn_more
-	{
-		
-		font-size:18pt;
-	}
-		.waitingDialogText 
-	{
-    		font-size: 18pt;
-	}
+    div.benefits_listing {
+        padding-top: 18px;
+    }
+
+    div.benefit_divider {
+        margin: 16px 0px 12px 0px;
+    }
+
+    div.container {
+        padding: 20px 28px;
+    }
+
+    div.benefits_title {
+        font-size: 16pt;
+        font-weight: 100;
+        padding-top: 6px;
+    }
+
+    div.benefit_headline {
+        font-size: 16pt;
+        font-weight: 100;
+        padding-top: 0px;
+    }
+
+    div.benefit_detail {
+        font-size: 13pt;
+        font-weight: 100;
+        padding-top: 5px;
+    }
+
+    .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
+        font-size: 20pt;
+        line-height: 70px;
+        width: auto;
+    }
+
+    div.after_signup_buttons {
+        font-size: 16pt;
+    }
+
+    div.legal {
+        font-size: 12pt;
+        padding: 10px;
+    }
+
+    div.no_thanks {
+        font-size: 14pt;
+        font-weight: 100;
+        padding: 10px;
+        top: 20px;
+    }
+
+    .prime-modal-title {
+        font-size: 18pt;
+        padding: 15px 25px 10px;
+    }
+
+    .prime-modal-body {
+        font-size: 18pt;
+        padding: 15px 20px;
+    }
+
+    div.learn_more {
+        font-size: 18pt;
+    }
+
+    .waitingDialogText {
+        font-size: 18pt;
+    }
 }
 
 @media all and (min-width: 1024px) {
-	div.headline {
-font-size: 38pt;
-font-weight: 100;
-padding: 20px;
-}
+    div.headline {
+        font-size: 38pt;
+        font-weight: 100;
+        padding: 20px;
+    }
 
-	div.benefits_listing {
-		padding-top: 18px;
-	}
-div.container {
-padding: 20px 30px;
-}
-div.benefits_title {
-font-size: 19pt;
-font-weight: 100;
-padding-top: 10px;
-}
-	
-ddiv.benefit_headline {
-font-size: 19pt;
-font-weight: 100;
-padding-top: 0px;
-}
-div.benefit_detail {
-font-size: 14pt;
-font-weight: 100;
-padding-top: 5px;
-}
-.textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
-font-size: 20pt;
-line-height: 70px;
-width: auto;
-}
-div.after_signup_buttons {
-font-size: 16pt;
-}
-div.legal {
-font-size: 13pt;
-padding: 10px;
-}
-div.no_thanks {
-font-size: 16pt;
-font-weight: 100;
-padding: 10px;
-top: 20px;
-}
-div.learn_more
-	{
-		
-		font-size:20pt;
-	}
-	div#logo
-	{
-		margin: 10px 230px -60px 230px;
-		float:none;
-		
-	}
-}
+    div.benefits_listing {
+        padding-top: 18px;
+    }
 
+    div.container {
+        padding: 20px 30px;
+    }
+
+    div.benefits_title {
+        font-size: 19pt;
+        font-weight: 100;
+        padding-top: 10px;
+    }
+
+    ddiv.benefit_headline {
+        font-size: 19pt;
+        font-weight: 100;
+        padding-top: 0px;
+    }
+
+    div.benefit_detail {
+        font-size: 14pt;
+        font-weight: 100;
+        padding-top: 5px;
+    }
+
+    .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
+        font-size: 20pt;
+        line-height: 70px;
+        width: auto;
+    }
+
+    div.after_signup_buttons {
+        font-size: 16pt;
+    }
+
+    div.legal {
+        font-size: 13pt;
+        padding: 10px;
+    }
+
+    div.no_thanks {
+        font-size: 16pt;
+        font-weight: 100;
+        padding: 10px;
+        top: 20px;
+    }
+
+    div.learn_more {
+        font-size: 20pt;
+    }
+
+    div#logo {
+        margin: 10px 230px -60px 230px;
+        float: none;
+    }
+}
