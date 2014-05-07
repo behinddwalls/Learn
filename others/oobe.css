@@ -435,7 +435,7 @@ a.no_thanks_link {
     }
 }
 
-@media all and (max-width: 479px and min-width:400px) {
+@media all and (max-width: 479px) and (min-width: 400px) {
     div.headline {
         font-size: 14pt;
         font-weight: 100;
