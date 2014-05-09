@@ -434,7 +434,7 @@ a.no_thanks_link {
         -o-transform: rotate(1080deg);
     }
 }
-@media all and (max-width: 240px) {
+@media all and (max-width: 319px) {
     div.headline {
         font-size: 12pt;
         font-weight: 100;
