@@ -505,7 +505,7 @@ a.no_thanks_link {
     div.after_signup_buttons {
         font-size: 10pt;
         padding: 0px;
-	margin-top: 15px;
+	margin-top: 20px;
     }
 
     div.legal {
@@ -518,7 +518,7 @@ a.no_thanks_link {
         font-size: 8pt;
         padding: 0;
 	float:none;
-	top:5px;
+	top:10px;
     }
 
     div.no_thanks_inner {
