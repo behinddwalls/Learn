@@ -575,22 +575,22 @@ a.no_thanks_link {
     }
 
     div.benefit_divider {
-        width: 272px;
-        margin: 10px 0px 6px 0px;
+        width: 272px  !important;
+        margin: 10px 0px 6px 0px  !important;
     }
 
     span.benefit_divider_start {
-        width: 20px;
+        width: 20px  !important;
     }
 
     span.benefit_divider_middle {
-        left: 20px;
-        width: 232px;
+        left: 20px  !important;
+        width: 232px  !important;
     }
 
     span.benefit_divider_end {
-        left: 252px;
-        width: 20px;
+        left: 252px  !important;
+        width: 20px  !important;
     }
 
     div.benefit_headline {
@@ -623,23 +623,24 @@ a.no_thanks_link {
 
     div.after_signup_buttons {
         font-size: 10pt;
-        padding: 10px;
+        padding: 0 10px;
     }
 
     div.legal {
-        font-size: 7pt;
+        font-size: 8pt;
         padding: 10px;
     }
 
     div.no_thanks {
         font-size: 9pt;
         padding: 0;
+	float:none;
     }
 
     div.no_thanks_inner {
         margin: 0 auto;
         width: 231px;
-	float:none;
+	
     }
 
     .prime-modal-title {
@@ -657,9 +658,11 @@ a.no_thanks_link {
     }
 
     #logo img {
-        height: 32px;
-	float:none;
+        height: 36px;
     }
+    #logo {
+	float:none;
+     }
 
     .waitingDialogText {
         font-size: 12pt;
