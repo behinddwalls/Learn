@@ -516,12 +516,12 @@ a.no_thanks_link {
     div.no_thanks {
         font-size: 9pt;
         padding: 0;
+	float:none;
     }
 
     div.no_thanks_inner {
         margin: 0 auto;
-        width: 231px;
-        float:none;
+        width: 140px;
     }
 
     .prime-modal-title {
@@ -540,8 +540,10 @@ a.no_thanks_link {
 
     #logo img {
         height: 32px;
-        float:none;
     }
+    #logo {
+	float:none;
+     }
 
     .waitingDialogText {
         font-size: 14pt;
