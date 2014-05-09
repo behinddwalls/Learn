@@ -446,7 +446,7 @@ a.no_thanks_link {
     }
 
     div.container {
-        padding: 10px 14px;
+        padding: 2px 14px;
     }
 
     div.benefits_title {
@@ -505,18 +505,20 @@ a.no_thanks_link {
     div.after_signup_buttons {
         font-size: 10pt;
         padding: 10px;
+	margin-top: 15px;
     }
 
     div.legal {
         font-size: 8pt;
         padding: 10px;
-	width:160px;
+	width:auto;
     }
 
     div.no_thanks {
         font-size: 9pt;
         padding: 0;
 	float:none;
+	top:5px;
     }
 
     div.no_thanks_inner {
