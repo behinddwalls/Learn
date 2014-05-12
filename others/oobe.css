@@ -871,7 +871,7 @@ a.no_thanks_link {
         font-size: 19pt;
         line-height: 60px;
         width: auto;
-        padding: 5px;
+        padding: 0px 5px;
     }
 
     div.after_signup_buttons {
