@@ -523,7 +523,7 @@ a.no_thanks_link {
 
     div.no_thanks_inner {
         margin: 0 auto;
-        width: 205px;
+        text-align:center;
     }
 
     .prime-modal-title {
@@ -640,7 +640,7 @@ a.no_thanks_link {
 
     div.no_thanks_inner {
         margin: 0 auto;
-        width: 231px;
+        text-align:center;
 	
     }
 
