@@ -755,8 +755,7 @@ a.no_thanks_link {
     }
 
     div.no_thanks_inner {
-        margin: 0 auto;
-        width: 231px;
+        padding:5px;
     }
 
     .prime-modal-title {
