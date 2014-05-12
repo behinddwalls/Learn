@@ -519,10 +519,11 @@ a.no_thanks_link {
         padding: 0;
 	float:none;
 	top:10px;
+	margin: 0 5px;
     }
 
     div.no_thanks_inner {
-        margin: 0 auto;
+        padding: 5px 0px;
         text-align:center;
     }
 
@@ -636,11 +637,12 @@ a.no_thanks_link {
         font-size: 9pt;
         padding: 0;
 	float:none;
+	margin: 0 10px;
     }
 
     div.no_thanks_inner {
-        margin: 0 auto;
         text-align:center;
+        padding: 5px 0px;
 	
     }
 
