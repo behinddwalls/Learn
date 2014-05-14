@@ -585,17 +585,16 @@ a.no_thanks_link {
 
     .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
         font-size: 15pt;
-        /*line-height: 50px !important;*/
-        padding: 15px 0px;
         width: auto;
         float: none;
     }
-    .amznButtonPrice, .amznButtonPricePressed {
-        /*min-height:50px !important;*/
+    #modalButton  {
+        padding:15px 0px;
     }
 
     div.button_inner {
         text-align: center;
+        padding: 15px 0px;
     }
 
     div.after_signup_buttons {
@@ -705,17 +704,17 @@ a.no_thanks_link {
 
     .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
         font-size: 15pt;
-        
         padding: 15px 0px;
         width: auto;
         float: none;
     }
-    .amznButtonPrice, .amznButtonPricePressed {
-       
+     #modalButton  {
+        padding:15px 0px;
     }
 
     div.button_inner {
         text-align: center;
+        padding: 15px 0px;
     }
 
     div.after_signup_buttons {
@@ -827,12 +826,13 @@ a.no_thanks_link {
         width: auto;
         float: right;
     }
-    .amznButtonPrice, .amznButtonPricePressed {
-        
+     #modalButton  {
+        padding:15px 0px;
     }
 
     div.button_inner {
         text-align: center;
+        padding: 15px 0px;
     }
 
     div.after_signup_buttons {
@@ -969,7 +969,14 @@ a.no_thanks_link {
         width: auto;
         padding: 15px 2px;
     }
+    #modalButton  {
+        padding:15px 2px;
+    }
 
+    div.button_inner {
+        text-align: center;
+        padding: 15px 2px;
+    }
     div.after_signup_buttons {
         font-size: 12pt;
     }
@@ -1054,6 +1061,14 @@ a.no_thanks_link {
         padding: 15px 3px;
         width: auto;
     }
+    #modalButton  {
+        padding:15px 3px;
+    }
+
+    div.button_inner {
+        text-align: center;
+        padding: 15px 3px;
+    }
 
     div.after_signup_buttons {
         font-size: 16pt;
@@ -1127,6 +1142,14 @@ a.no_thanks_link {
         font-size: 20pt;
         padding: 15px 5px;
         width: auto;
+    }
+    #modalButton  {
+        padding:15px 5px;
+    }
+
+    div.button_inner {
+        text-align: center;
+        padding: 15px 5px;
     }
 
     div.after_signup_buttons {
