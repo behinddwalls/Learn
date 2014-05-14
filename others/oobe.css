@@ -32,7 +32,105 @@ div.headline {
     padding-left: 20px;
     padding-bottom: 20px;
 }
+div.benefit_divider_old {
+    display: block;
+    height: 1px;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 760px;
+    margin: 15px 0px 10px 0px;
+}
+div.upsell_image {
+    padding-top: 10px;
+    display: block;
+    height: 219px;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 800px;
+    margin: 0 auto;
+}
+.amznButtonPrice {
+  vertical-align: middle;
+  background: none;
+  border-style: solid;
+  border-width: 0 22px;
+  border-color: rgba(0, 0, 0, 0);
+  white-space: nowrap;
+}
 
+.amznButtonPricePressed {
+  vertical-align: middle;
+  background: none;
+  border-style: solid;
+  border-width: 0 22px;
+  border-color: rgba(0, 0, 0, 0);
+  white-space: nowrap;
+}
+/* BUTTONS */
+.amznButton {
+  vertical-align: middle;
+  background: none;
+  border-style: solid;
+  border-width: 0 22px;
+  border-color: rgba(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.amznButtonPressed {
+  vertical-align: middle;
+  background: none;
+  border-style: solid;
+  border-width: 0 22px;
+  border-color: rgba(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+span.benefit_divider_start {
+    display: block;
+    height: 1px;
+    left: 0px;
+    position: relative;
+    width: 50px;
+    margin-top: -1px;
+}
+
+span.benefit_divider_middle {
+    display: block;
+    height: 1px;
+    left: 50px;
+    position: relative;
+    width: 660px;
+    background-position: -50px 0px;
+    margin-top: -1px;
+}
+
+span.benefit_divider_end {
+    display: block;
+    height: 1px;
+    left: 710px;
+    position: relative;
+    width: 50px;
+    background-position: -710px 0px;
+    margin-top: -1px;
+}
+
+.spinner {
+    -moz-animation: spinnerRotateClockwise 5s;
+    -webkit-animation: spinnerRotateClockwise 5s;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-transform-origin: center;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -moz-transform-origin: center;
+    width: 48px;
+    height: 48px;
+    background-position: -8px -8px;
+}
 div.benefits_title {
     font-size: 19pt;
     font-weight: 100;
