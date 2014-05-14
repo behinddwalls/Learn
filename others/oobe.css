@@ -704,7 +704,6 @@ a.no_thanks_link {
 
     .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
         font-size: 15pt;
-        padding: 15px 0px;
         width: auto;
         float: none;
     }
@@ -821,8 +820,6 @@ a.no_thanks_link {
 
     .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
         font-size: 15pt;
-       
-        padding: 15px 0px;
         width: auto;
         float: right;
     }
@@ -965,9 +962,7 @@ a.no_thanks_link {
 
     .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
         font-size: 17pt;
-        
         width: auto;
-        padding: 15px 2px;
     }
     #modalButton  {
         padding:15px 2px;
@@ -1058,7 +1053,6 @@ a.no_thanks_link {
 
     .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
         font-size: 19pt;
-        padding: 15px 3px;
         width: auto;
     }
     #modalButton  {
@@ -1140,7 +1134,6 @@ a.no_thanks_link {
 
     .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
         font-size: 20pt;
-        padding: 15px 5px;
         width: auto;
     }
     #modalButton  {
