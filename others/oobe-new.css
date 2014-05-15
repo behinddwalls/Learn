@@ -14,15 +14,18 @@ body, html {
     font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
     margin: 0pt;
     padding: 0pt;
+    font-size:62.5%;
 }
 
 body {
-    max-width: 1369px;
+    max-width: 136.9rem;
+    max-width:1360px;
     margin: 0 auto;
 }
 
 .container {
-    padding: 20px 30px;
+    padding: 2rem 3rem;
+    padding:20px 30px;
 }
 
 div.headline {
@@ -31,24 +34,33 @@ div.headline {
     padding-top: 30px;
     padding-left: 20px;
     padding-bottom: 20px;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
 }
 div.benefit_divider_old {
     display: block;
     height: 1px;
-    left: 0px;
+    height:0.1rem;
+    left: 0;
     position: relative;
-    top: 0px;
+    top: 0;
     width: 760px;
+    width:76rem;
     margin: 15px 0px 10px 0px;
+    margin: 1.5rem 0rem 1rem 0rem;
 }
 div.upsell_image {
     padding-top: 10px;
+    padding-top: 1rem;
     display: block;
     height: 219px;
-    left: 0px;
+    height: 21.9rem;
+    left: 0;
     position: relative;
-    top: 0px;
+    top: 0;
     width: 800px;
+    width: 80rem;
     margin: 0 auto;
 }
 .amznButtonPrice {
@@ -56,6 +68,7 @@ div.upsell_image {
   background: none;
   border-style: solid;
   border-width: 0 15px;
+  border-width: 0 1.5rem;
   border-color: rgba(0, 0, 0, 0);
   white-space: normal;
 }
@@ -65,6 +78,7 @@ div.upsell_image {
   background: none;
   border-style: solid;
   border-width: 0 15px;
+  border-width: 0 1.5rem;
   border-color: rgba(0, 0, 0, 0);
   white-space: normal;
 }
@@ -74,6 +88,7 @@ div.upsell_image {
   background: none;
   border-style: solid;
   border-width: 0 15px;
+  border-width: 0 1.5rem;
   border-color: rgba(0, 0, 0, 0);
   white-space: normal;
 }
@@ -83,6 +98,7 @@ div.upsell_image {
   background: none;
   border-style: solid;
   border-width: 0 15px;
+  border-width: 0 1.5rem;
   border-color: rgba(0, 0, 0, 0);
   white-space: normal;
 }
@@ -90,30 +106,42 @@ div.upsell_image {
 span.benefit_divider_start {
     display: block;
     height: 1px;
-    left: 0px;
+    height: 0.1rem;
+    left: 0;
     position: relative;
     width: 50px;
+    width: 5rem;
     margin-top: -1px;
+    margin-top: -0.1rem;
 }
 
 span.benefit_divider_middle {
     display: block;
     height: 1px;
+    height: 0.1rem;
     left: 50px;
     position: relative;
     width: 660px;
-    background-position: -50px 0px;
+    width: 66rem;
+    background-position: -50px 0;
+    background-position: -5rem 0;
     margin-top: -1px;
+    margin-top: -0.1rem;
 }
 
 span.benefit_divider_end {
     display: block;
     height: 1px;
+    height: 0.1rem;
     left: 710px;
+    left: 71rem;
     position: relative;
     width: 50px;
-    background-position: -710px 0px;
+    width: 5rem;
+    background-position: -710px 0;
+    background-position: -71rem 0;
     margin-top: -1px;
+    margin-top: -0.1rem;
 }
 
 .spinner {
@@ -128,8 +156,11 @@ span.benefit_divider_end {
     -moz-animation-timing-function: linear;
     -moz-transform-origin: center;
     width: 48px;
+    width: 4.8rem;
     height: 48px;
+    height: 4.8rem;
     background-position: -8px -8px;
+    background-position: -0.8rem -0.8rem;
 }
 div.benefits_title {
     font-size: 19pt;
