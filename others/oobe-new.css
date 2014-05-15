@@ -164,23 +164,29 @@ span.benefit_divider_end {
 }
 div.benefits_title {
     font-size: 19pt;
+    font-size:25.33rem;
     font-weight: 100;
     padding-top: 10px;
+    padding-top:1rem;
 }
 
 div.benefit_headline {
     font-size: 19pt;
+    font-size:25.33rem;
     font-weight: 100;
-    padding-top: 0px;
+    padding-top: 0;
 }
 
 div.benefits_listing {
     padding-top: 20px;
+    padding-top: 2rem;
 }
 
 div.learn_more {
     font-size: 23px;
+    font-size: 2.3rem;
     padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 
 div.clear_both {
@@ -189,26 +195,33 @@ div.clear_both {
 
 div.signup {
     font-size: 13pt;
+    font-size: 17.33rem;
     font-weight: 100;
-    padding-top: 0px;
+    padding-top: 0;
     float: right;
 }
 
 div.signup_action {
     font-size: 16pt;
+    font-size: 21.33rem;
     font-weight: 100;
-    padding-top: 0px;
+    padding-top: 0;
     float: right;
     margin-top: -8px;
+    margin-top: -0.8rem;
 }
 
 div.no_thanks {
     font-size: 16pt;
+    font-size: 21.33rem;
     font-weight: 100;
     padding-right: 40px;
     padding-bottom: 20px;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
     position: relative;
     top: 20px;
+    top: 2rem;
     float: right;
     color: #6aa9db;
     font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
@@ -216,30 +229,31 @@ div.no_thanks {
 
 div.benefit_detail {
     font-size: 14pt;
+    font-size: 18.66rem;
     font-weight: 100;
     padding-top: 5px;
+    padding-top: 0.5px;
     color: #949494;
 }
 
 div.benefit_divider {
     display: block;
     height: 1px;
-    left: 0px;
+    height: 0.1px;
+    left: 0;
     position: relative;
-    top: 0px;
+    top: 0;
     width: 760px;
+    width: 76rem;
     margin: 25px 0px 20px 0px;
-}
-
-div.benefit_divider_old2 {
-    border-top: 1px solid #949494;
-    height: 1px;
-    margin: 15px 0px 10px 0px;
+    margin: 2.5rem 0rem 2rem 0rem;
 }
 
 div.bottomBox {
     padding-top: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
+    padding-top: 2rem;
+    
 }
 
 div.upsell_container {
@@ -260,19 +274,24 @@ div.upsell_container img {
 
 div.prime-modal-text {
     padding-bottom: 10px;
+    padding-bottom: 1rem;
 }
 
 div.after_signup_buttons {
     font-size: 19pt;
+    font-size: 25.33rem;
     font-weight: 100;
     margin-top: 50px;
+    margin-top: 5rem;
     color: #949494;
 }
 
 div.legal {
     font-size: 13pt;
+    font-size: 1.73rem;
     font-weight: 100;
     padding: 10px 30px 0;
+    padding: 1rem 3rem 0;
     text-align: justify;
     color: #949494;
 }
@@ -281,6 +300,7 @@ a.no_thanks_link {
     text-decoration: none;
     font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
     font-size: 16pt;
+    font-size:2.133rem;
     font-weight: 100;
     color: #6aa9db;
     width: auto;
@@ -288,26 +308,32 @@ a.no_thanks_link {
 
 .prime-modal-container {
     max-width: 700px;
+    max-width: 70rem;
 }
 
 .prime-modal-title {
     background-color: #131313;
     font-size: 20pt;
+    font-size: 2.666rem;
     font-weight: bold;
     padding: 30px 40px 15px;
+    padding: 3rem 4rem 1.5rem;
 }
 
 .prime-modal-body {
     background-color: #202020;
     color: #949494;
     font-size: 18pt;
+    font-size: 2.4rem;
     padding: 30px 40px;
+    padding: 3rem 4rem;
 }
 
 .waitingDialogText {
     background-color: #202020;
     color: #949494;
     font-size: 18pt;
+    font-size:2.4rem;
 }
 
 .float_right {
@@ -316,24 +342,30 @@ a.no_thanks_link {
 
 .prime-modal-button {
     margin-left: 410px;
+    margin-left: 41rem;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .prime-modal-button a {
     color: #FFFFFF;
     font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
     font-size: 15pt;
+    font-size: 2rem;
     text-decoration: none;
     padding-left: 45px;
+    padding-left: 4.5rem;
 }
 
 .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
     font-family: helvetica_ne_lt_45_lt, Helvetica,Arial,sans-serif;
     font-size: 20pt;
-   /* line-height: 80px;*/
+    font-size: 2.666rem;
     color: white;
     text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px -0.1rem 0.1rem rgba(0, 0, 0, 0.5);
 }
 
 
@@ -350,22 +382,25 @@ a.no_thanks_link {
 
 .accordionButton {
     border-top: 1px solid #666666;
+    border-top: 0.1rem solid #666666;
     cursor: pointer;
     float: left;
     padding-bottom: 10px;
     padding-top: 10px;
-     /*width: 100%;*/;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .border {
     border-bottom: 1px solid #666666;
+    border-bottom: 0.1rem solid #666666;
      /*width: 100%;*/;
 }
 
 .accordionContent {
     float: left;
     padding-bottom: 20px;
-     /*width: 100%;*/;
+     padding-bottom: 2rem;
 }
 
 .on {
@@ -376,17 +411,21 @@ a.no_thanks_link {
 
 .carousel-image-and-text {
     height: 230px;
+    height: 23rem;
     margin: 0pt auto;
 }
 
 .carousel-image-and-text .touchcarousel-item {
     height: 300px;
+    height: 30rem;
     margin-right: 10px;
+    margin-right: 1rem;
 }
 
 .carousel-image-and-text .item-block {
     display: block;
     height: 300px;
+    height: 30rem;
 }
 
 .carousel-image-and-text .item-block img, .carousel-image-and-text .item-block h4, .carousel-image-and-text .item-block p {
@@ -447,12 +486,13 @@ a.no_thanks_link {
 }
 
 .text_container h2 {
-    margin: 0pt;
+    margin: 0;
     padding-top: 20px;
+    padding-top: 2rem;
 }
 
 .text_container p {
-    margin: 0pt;
+    margin: 0;
 }
 
 .left {
@@ -466,13 +506,17 @@ a.no_thanks_link {
 .image_center {
     float: left;
     padding-left: 30px;
+    padding-left: 3rem;
     text-align: center;
     width: 220px;
+    width: 22rem;
 }
 
 #logo {
     margin-bottom: 10px;
     margin-top: 10px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     float: left;
     max-width: 100%;
     height: auto;
@@ -489,31 +533,38 @@ a.no_thanks_link {
 
 .logo {
     height: 100px;
+    height: 10rem;
     text-align: right;
 }
 
 .headline_box {
     padding-left: 60px;
+    padding-left: 6rem;
     padding-top: 0px;
     padding-bottom: 5px;
+    padding-bottom: 0.5rem;
 }
 
 .end {
     float: right;
     padding-right: 20px;
+    padding-right: 2rem;
     width: 41%;
 }
 
 .end img {
     width: 400px;
+    width: 40rem;
 }
 
 .endtext {
     padding-left: 60px;
+    padding-left: 6rem;
 }
 
 .cta {
     padding-left: 60px;
+    padding-left: 6rem;
     width: 80%;
 }
 
@@ -521,6 +572,8 @@ a.no_thanks_link {
     font-weight: 100;
     margin-top: 10px;
     margin-right: 5px;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
 }
 
 .table {
