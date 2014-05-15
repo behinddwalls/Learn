@@ -30,6 +30,7 @@ body {
 
 div.headline {
     font-size: 38pt;
+    font-size: 5.066rem;
     font-weight: 100;
     padding-top: 30px;
     padding-left: 20px;
@@ -164,7 +165,7 @@ span.benefit_divider_end {
 }
 div.benefits_title {
     font-size: 19pt;
-    font-size:25.33rem;
+    font-size:2.533rem;
     font-weight: 100;
     padding-top: 10px;
     padding-top:1rem;
@@ -172,7 +173,7 @@ div.benefits_title {
 
 div.benefit_headline {
     font-size: 19pt;
-    font-size:25.33rem;
+    font-size:2.533rem;
     font-weight: 100;
     padding-top: 0;
 }
@@ -183,8 +184,8 @@ div.benefits_listing {
 }
 
 div.learn_more {
-    font-size: 23px;
-    font-size: 2.3rem;
+    font-size: 20pt;
+    font-size: 2.666rem;
     padding-bottom: 20px;
     padding-bottom: 2rem;
 }
@@ -195,7 +196,7 @@ div.clear_both {
 
 div.signup {
     font-size: 13pt;
-    font-size: 17.33rem;
+    font-size: 1.733rem;
     font-weight: 100;
     padding-top: 0;
     float: right;
@@ -203,7 +204,7 @@ div.signup {
 
 div.signup_action {
     font-size: 16pt;
-    font-size: 21.33rem;
+    font-size: 2.133rem;
     font-weight: 100;
     padding-top: 0;
     float: right;
@@ -213,7 +214,7 @@ div.signup_action {
 
 div.no_thanks {
     font-size: 16pt;
-    font-size: 21.33rem;
+    font-size: 2.133rem;
     font-weight: 100;
     padding-right: 40px;
     padding-bottom: 20px;
@@ -229,7 +230,7 @@ div.no_thanks {
 
 div.benefit_detail {
     font-size: 14pt;
-    font-size: 18.66rem;
+    font-size: 1.866rem;
     font-weight: 100;
     padding-top: 5px;
     padding-top: 0.5px;
@@ -279,7 +280,7 @@ div.prime-modal-text {
 
 div.after_signup_buttons {
     font-size: 19pt;
-    font-size: 25.33rem;
+    font-size: 2.533rem;
     font-weight: 100;
     margin-top: 50px;
     margin-top: 5rem;
@@ -1239,10 +1240,6 @@ a.no_thanks_link {
         font-weight: 100;
         padding: 10px;
         top: 20px;
-    }
-
-    div.learn_more {
-        font-size: 20pt;
     }
 
 }
