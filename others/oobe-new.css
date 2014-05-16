@@ -1231,6 +1231,23 @@ a.no_thanks_link {
         font-size: 2.133rem;
     }
 }
+@media all and (max-width: 1023px) and (min-width: 820px) {
+	
+    div.container {
+        padding: 30px 20px;
+        padding:3rem 2rem;
+    }
+    
+    div.benefit_detail {
+        font-size: 14pt;
+        font-size: 1.866rem;
+        padding-top: 5px;
+        padding-top: 0.5rem;
+    }
+
+	
+}
+
 
 @media all and (max-width: 1023px) and (min-width: 768px) {
     div.headline {
