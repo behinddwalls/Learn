@@ -1233,6 +1233,12 @@ a.no_thanks_link {
 }
 @media all and (max-width: 1023px) and (min-width: 820px) {
 	
+    div.headline {
+        font-size: 34pt;
+        font-size: 4.533rem;
+        padding: 20px;
+        padding: 2rem;
+    }
     div.container {
         padding: 30px 20px !important;
         padding:3rem 2rem !important;
@@ -1243,6 +1249,10 @@ a.no_thanks_link {
         font-size: 1.866rem !important;
         padding-top: 5px !important;
         padding-top: 0.5rem !important;
+    }
+    div.benefit_divider {
+        margin: 18px 0px 14px 0px;
+        margin: 1.8rem 0rem 1.4rem 0rem;
     }
 
 	
