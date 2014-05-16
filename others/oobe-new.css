@@ -363,6 +363,7 @@ a.no_thanks_link {
     text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
     text-shadow: 0px -0.1rem 0.1rem rgba(0, 0, 0, 0.5);
     width:auto;
+    min-width:50%;
 }
 
 
@@ -971,7 +972,6 @@ a.no_thanks_link {
     .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
         font-size: 15pt;
         font-size: 2rem;
-        width: auto;
         float: right;
     }
      #modalButton  {
