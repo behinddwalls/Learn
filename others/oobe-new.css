@@ -1234,15 +1234,15 @@ a.no_thanks_link {
 @media all and (max-width: 1023px) and (min-width: 820px) {
 	
     div.container {
-        padding: 30px 20px;
-        padding:3rem 2rem;
+        padding: 30px 20px !important;
+        padding:3rem 2rem !important;
     }
     
     div.benefit_detail {
-        font-size: 14pt;
-        font-size: 1.866rem;
-        padding-top: 5px;
-        padding-top: 0.5rem;
+        font-size: 14pt !important;
+        font-size: 1.866rem !important;
+        padding-top: 5px !important;
+        padding-top: 0.5rem !important;
     }
 
 	
