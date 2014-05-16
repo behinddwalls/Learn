@@ -1231,8 +1231,8 @@ a.no_thanks_link {
     div.headline {
         font-size: 32pt;
         font-size: 4.266rem;
-        padding: 20px;
-        padding: 2rem;
+        padding: 15px;
+        padding: 1.5rem;
     }
 
     div.benefits_listing {
@@ -1246,8 +1246,8 @@ a.no_thanks_link {
     }
 
     div.container {
-        padding: 20px 28px;
-        padding:2rem 2.8rem;
+        padding: 20px 20px;
+        padding:2rem 2rem;
     }
 
     div.benefits_title {
