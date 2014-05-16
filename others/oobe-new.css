@@ -1053,7 +1053,10 @@ a.no_thanks_link {
         height: 34px;
         height:3.4rem;
     }
-     div.after_signup_buttons {
+     
+}
+@media all and (max-width: 600px) and (min-width: 480px) {
+	div.after_signup_buttons {
         margin-top:20px !important;
 	margin-top:2rem  !important;
     }
@@ -1061,9 +1064,9 @@ a.no_thanks_link {
     div.legal {
         margin-top:-10px;
         margin-top:-1rem;
-    }
+    }	
+	
 }
-
 @media all and (max-width: 767px) and (min-width: 511px) {
     #logo img {
         height: 40px;
