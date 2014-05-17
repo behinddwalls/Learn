@@ -612,7 +612,7 @@ a.no_thanks_link {
         -o-transform: rotate(1080deg);
     }
 }
-@media all and (max-width: 319px) {
+@media all and (max-width: 19.94rem) {
     div.headline {
         font-size: 12pt;
         font-size: 1.6rem;
@@ -760,7 +760,7 @@ a.no_thanks_link {
 }
 
 
-@media all and (max-width: 379px) and (min-width: 320px) {
+@media all and (max-width: 23.69rem) and (min-width: 20rem) {
     div.headline {
         font-size: 12pt;
         font-size: 1.6rem;
@@ -904,7 +904,7 @@ a.no_thanks_link {
         font-size: 1.6rem;
     }
 }
-@media all and (max-width: 479px) and (min-width: 380px) {
+@media all and (max-width: 29.94rem) and (min-width: 23.75rem) {
     div.headline {
         font-size: 14pt;
         font-size: 1.866rem;
@@ -1048,14 +1048,14 @@ a.no_thanks_link {
     }
 }
 
-@media all and (max-width: 510px) and (min-width: 480px) {
+@media all and (max-width: 31.88px) and (min-width: 30rem) {
     #logo img {
         height: 34px;
         height:3.4rem;
     }
      
 }
-@media all and (max-width: 600px) and (min-width: 480px) {
+@media all and (max-width: 37.5px) and (min-width: 30rem) {
     div.after_signup_buttons {
         margin-top:20px !important;
 	margin-top:2rem  !important;
@@ -1071,14 +1071,14 @@ a.no_thanks_link {
     }
 	
 }
-@media all and (max-width: 767px) and (min-width: 511px) {
+@media all and (max-width: 47.94rem) and (min-width: 31.94rem) {
     #logo img {
         height: 40px;
         height: 4rem;
     }
 }
 
-@media all and (max-width: 810px) and (min-width: 768px) {
+@media all and (max-width: 50.63rem) and (min-width: 48rem) {
     div.benefit_divider {
         width: 720px;
         width: 72rem;
@@ -1106,7 +1106,7 @@ a.no_thanks_link {
     }
 }
 
-@media all and (max-width: 767px) and (min-width: 480px) {
+@media all and (max-width: 47.94rem) and (min-width: 30rem) {
     div.headline {
         font-size: 21pt;
         font-size: 2.8rem;
@@ -1231,7 +1231,7 @@ a.no_thanks_link {
         font-size: 2.133rem;
     }
 }
-@media all and (max-width: 1023px) and (min-width: 820px) {
+@media all and (max-width: 63.94rem) and (min-width: 51.25rem) {
 	
     div.headline {
         font-size: 34pt;
@@ -1259,7 +1259,7 @@ a.no_thanks_link {
 }
 
 
-@media all and (max-width: 1023px) and (min-width: 768px) {
+@media all and (max-width: 63.94rem) and (min-width: 48rem) {
     div.headline {
         font-size: 32pt;
         font-size: 4.266rem;
@@ -1364,7 +1364,7 @@ a.no_thanks_link {
     }
 }
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 64rem) {
    
     #modalButton  {
         padding: 15px 5px 18px 5px;
