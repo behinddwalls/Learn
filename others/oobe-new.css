@@ -1048,14 +1048,14 @@ a.no_thanks_link {
     }
 }
 
-@media all and (max-width: 31.88px) and (min-width: 30rem) {
+@media all and (max-width: 31.88rem) and (min-width: 30rem) {
     #logo img {
         height: 34px;
         height:3.4rem;
     }
      
 }
-@media all and (max-width: 37.5px) and (min-width: 30rem) {
+@media all and (max-width: 37.5rem) and (min-width: 30rem) {
     div.after_signup_buttons {
         margin-top:20px !important;
 	margin-top:2rem  !important;
