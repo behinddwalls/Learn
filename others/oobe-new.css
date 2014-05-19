@@ -27,6 +27,11 @@ body {
 {
 	overflow:auto;
 }
+#fallbackButton
+{
+	margin-bottom:20px;
+	
+}
 .container {
     padding: 2rem 3rem;
     padding:20px 30px;
