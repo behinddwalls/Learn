@@ -23,7 +23,10 @@ body {
     margin: 0 auto;
     overflow:hidden;
 }
-
+#wrapper
+{
+	overflow:auto;
+}
 .container {
     padding: 2rem 3rem;
     padding:20px 30px;
