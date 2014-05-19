@@ -21,6 +21,7 @@ body {
     max-width: 136.9rem;
     max-width:1360px;
     margin: 0 auto;
+    overflow:hidden;
 }
 
 .container {
