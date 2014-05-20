@@ -1,0 +1,350 @@
+body, html {
+     background-color: #FFFFFF;
+     color: #000000;
+     margin-left: 10px;
+     margin-right: 10px;
+     font-family: "Futura Plain", Futura, Helvetica, Arial, sans-serif;
+     max-width: 758px;
+}
+
+div.headline {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 33px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+div.subheadline {
+    font-size: 27px;
+    font-weight: normal;
+    margin-top: 7px;
+}
+
+div.benefits_title {
+    font-size: 27px;
+    font-family: "Futura Medium", Futura, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 35px;
+    white-space: nowrap;
+}
+
+div.benefits_subtitle {
+    font-size: 25px;
+    font-family: "Futura Medium", Futura, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+div.upsell_image {
+    height: 205px;
+    width: 753px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+div.upsell_image img {
+}
+
+div.benefits_detail {
+    font-size: 28px;
+    min-width: 630px;
+}
+
+div.benefits_more { 
+    font-size: 25px;
+    min-width: 630px;
+    margin-top: 40px;
+}
+
+div.learn_more {
+    font-size: 23px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+div.clear_both {
+    clear:both;
+}
+
+div.signup {
+     width: 100%;
+     text-align: center;
+}
+
+table.signup_buttons {
+    width: 100%;
+    text-align: center;
+    margin-top: 45px;
+}
+
+div.signup_action {
+}
+
+div.no_thanks_container {
+  width: 100%;
+  text-align: center;
+}
+
+.no_thanks {
+  border: none;
+  background-color: #FFFFFF;
+  font-size: 25px;
+  font-weight: normal;
+  color: #000000;
+  text-align: center;
+  max-width: 700px;
+  white-space: nowrap;
+  padding-top:5px;
+  height:50px;
+  font-family: "Futura Medium", Futura, Helvetica, Arial, sans-serif;
+}
+
+span.no_thanks_arrow {
+    background: url("") repeat scroll -10px 70px transparent;
+    padding: 5px 20px 0px 20px;
+    width: 30px;
+}
+
+div.bottomBox {
+}
+
+td.fallbackPadding, td.modalPadding {
+  width: 25%;
+}
+
+td.signupPadding {
+  width: 18%;
+}
+
+div.modalButton_container table {
+  width: 100%;
+}
+
+
+div.fallbackButton {
+  font-size: 25px;
+  text-align: center;
+  vertical-align: center;
+}
+
+div.signupButton {
+  font-size: 27px;
+  text-align: center;
+  vertical-align: center;
+}
+
+div.after_signup_buttons {
+    margin-top: 35px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000000;
+}
+
+div.legal {
+  margin-top: 15px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.prime-modal-container {
+    background-color: #FFFFFF;
+  max-width: 725px;
+}
+
+.signupResult {
+  display:none;
+  z-index:9999;
+  background-color:#FFFFFF;
+  position:absolute;
+}
+
+.prime-modal-title {
+    max-width: 725px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-top: 5px solid #000000;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+    border-bottom: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Dialog Bold", Futura, Helvetica, Arial, sans-serif;
+    padding: 10px 20px;
+    vertical-align: middle;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.prime-modal-body {
+    max-width: 725px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 5px solid #000000;
+    font-size: 27px;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.prime-modal-text {
+    padding-bottom: 10px;
+    max-width: 676px;
+}
+
+#modalButton, #errorButton, .modalButton, .modal-button {
+    max-width:  500px;
+    font-family: "Futura Plain", Futura, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 30px;
+    margin: 10px;
+}
+
+.waitingDialogText {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 25px;
+    padding-left: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.amznButtonPrice {
+    color: #000000;
+    background-color: #FFFFFF;
+    height: 65px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 65px;
+  max-width: 700px;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+  -webkit-border-image: url("") 74 20 180 20 stretch;
+    border-width: 1px 15px 0px 10px;
+}
+
+.amznButtonPricePressed {
+  color: #FFFFFF;
+    height: 65px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 65px;
+    max-width: 700px;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-border-image: url("") 160 20 78 20 stretch;
+    border-width: 1px 15px 0px 10px;
+}
+
+.textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
+  font-size: 20px;
+  line-height: 65px;
+  color: #000000;
+}
+
+div.fallbackButton_container, div.fallbackButton_container table {
+  text-align: center;
+  width: 100%;
+}
+
+div.fallbackButton, div.modalButton, table.modalButton {
+  text-align: center;
+}
+
+.modalButtonSmall
+{
+  text-align: center;
+  max-width: 100px;
+}
+
+/* BUTTONS */
+
+.amznButton {
+  color: #000000;
+  background-color: #FFFFFF;
+  height: 65px;
+  max-width: 500px;
+  vertical-align: middle;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-border-image: url("") 74 20 180 20 stretch;
+  border-width: 1px 15px 0px 10px;
+}
+
+.amznButtonPressed {
+  color: #FFFFFF;
+  height: 65px;
+  max-width: 500px;
+  vertical-align: middle;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-border-image: url("") 160 20 78 20 stretch;
+  border-width: 1px 15px 0px 10px;
+}
+
+.table {
+  width: 100%;
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+}
+
+.spinner {
+  -moz-animation:spinnerRotateClockwise 5s;
+  -webkit-animation:spinnerRotateClockwise 5s;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-transform-origin: center;
+  -moz-animation-duration: 4s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -moz-transform-origin: center;
+  background: url("") no-repeat left top;
+  width: 48px;
+  height: 48px;
+  background-position: -8px -8px;
+}
+
+
+@-moz-keyframes spinnerRotateClockwise /* Firefox */
+{
+  from {
+    -moz-transform: rotate(0deg);
+  }
+
+  to {
+    -moz-transform: rotate(1080deg);
+  }
+}
+
+@-webkit-keyframes spinnerRotateClockwise /* Safari and Chrome */
+{
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(1080deg);
+  }
+}
+
+@-o-keyframes spinnerRotateClockwise /* Opera */
+{
+  from {
+    -o-transform: rotate(0deg);
+  }
+
+  to {
+    -o-transform: rotate(1080deg);
+  }
+}
