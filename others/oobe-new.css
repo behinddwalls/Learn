@@ -15,13 +15,14 @@ body, html {
     margin: 0pt;
     padding: 0pt;
     font-size:62.5%;
+     overflow:hidden;
 }
 
 body {
     max-width: 136.9rem;
     max-width:1360px;
     margin: 0 auto;
-    overflow:hidden;
+   
 }
 #wrapper
 {
