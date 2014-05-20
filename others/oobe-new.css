@@ -673,10 +673,7 @@ a.no_thanks_link {
         font-size: 2rem;
         float: none;
     }
-    #modalButton  {
-        padding: 15px 0px 18px 0px;
-        padding: 1.5rem 0 1.8rem 0;
-    }
+    
 
     div.button_inner {
        text-align: center;
@@ -814,10 +811,7 @@ a.no_thanks_link {
         font-size: 2rem;
         float: none;
     }
-     #modalButton  {
-       padding: 15px 0px 18px 0px;
-       padding: 1.5rem 0 1.8rem 0;
-    }
+    
 
     div.button_inner {
        text-align: center;
@@ -955,10 +949,7 @@ a.no_thanks_link {
         font-size: 2rem;
         float: right;
     }
-     #modalButton  {
-        padding: 15px 0px 18px 0px;
-        padding: 1.5rem 0rem 1.8rem 0rem;
-    }
+  
 
     div.button_inner {
        text-align: center;
@@ -1145,10 +1136,7 @@ a.no_thanks_link {
         font-size: 17pt;
 	font-size: 2.266rem;        
     }
-    #modalButton  {
-         padding: 15px 2px 18px 2px;
-         padding: 1.5rem 0.3rem 1.8rem 0.2rem;
-    }
+   
 
     div.button_inner {
         text-align: center;
@@ -1277,10 +1265,7 @@ a.no_thanks_link {
         font-size: 19pt;
         font-size:2.533rem;
     }
-    #modalButton  {
-       padding: 15px 3px 18px 3px;
-       padding: 1.5rem 0.3rem 1.8rem 0.3rem;
-    }
+   
 
     div.button_inner {
         text-align: center;
@@ -1337,10 +1322,7 @@ a.no_thanks_link {
 
 @media all and (min-width: 64rem) {
    
-    #modalButton  {
-        padding: 15px 5px 18px 5px;
-        padding: 1.5rem 0.5rem 1.8rem 0.5rem;
-    }
+   
 
     div.button_inner {
         text-align: center;
