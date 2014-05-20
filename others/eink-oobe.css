@@ -97,22 +97,23 @@ div.no_thanks_container {
 }
 
 .no_thanks {
-  border: none;
-  background-color: #FFFFFF;
-  font-size: 25px;
-  font-weight: normal;
-  color: #000000;
-  text-align: center;
-  max-width: 700px;
-  white-space: nowrap;
-  padding-top:5px;
-  height:50px;
-  font-family: "Futura Medium", Futura, Helvetica, Arial, sans-serif;
+border: none;
+background-color: #FFFFFF;
+font-size: 2.8rem;
+font-weight: normal;
+color: #000000;
+text-align: center;
+max-width: 100%;
+white-space: normal;
+padding-top: 0.5rem;
+font-family: "Futura Medium", Futura, Helvetica, Arial, sans-serif;
 }
 
 span.no_thanks_arrow {
     padding: 5px 20px 0px 20px;
+    padding: 0.5rem 2rem 0px 2rem;
     width: 30px;
+    width:3rem;
 }
 
 div.bottomBox {
@@ -144,17 +145,17 @@ div.signupButton {
 }
 
 div.after_signup_buttons {
-    margin-top: 35px;
-    font-size: 16px;
-    font-weight: normal;
-    color: #000000;
+   margin-top: 3.5rem;
+font-size: 2.3rem;
+font-weight: normal;
+color: #000000;
 }
 
 div.legal {
-  margin-top: 15px;
-    font-size: 13px;
-    font-weight: normal;
-    color: #000000;
+  margin-top: 1.5rem;
+font-size: 1.8rem;
+font-weight: normal;
+color: #000000;
 }
 
 .prime-modal-container {
@@ -222,17 +223,15 @@ div.legal {
 }
 
 .amznButtonPrice {
-    color: #000000;
-    background-color: #FFFFFF;
-    height: 65px;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 65px;
-  max-width: 700px;
-    vertical-align: middle;
-    text-align: center;
-    white-space: nowrap;
-    border-width: 1px 15px 0px 10px;
+   color: #000000;
+background-color: #FFFFFF;
+font-weight: bold;
+font-size: 3.2rem;
+max-width: 100%;
+vertical-align: middle;
+text-align: center;
+white-space: normal;
+border-width: 1px 15px 0px 10px;
 }
 
 .amznButtonPricePressed {
