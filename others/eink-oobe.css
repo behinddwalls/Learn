@@ -87,7 +87,11 @@ table.signup_buttons {
     text-align: center;
     margin-top: 45px;
 }
-
+div.button_inner
+{
+    padding: 1.5rem 1.8rem;
+    
+}
 div.signup_action {
 }
 
