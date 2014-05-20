@@ -103,7 +103,6 @@ div.no_thanks_container {
 }
 
 span.no_thanks_arrow {
-    background: url("") repeat scroll -10px 70px transparent;
     padding: 5px 20px 0px 20px;
     width: 30px;
 }
@@ -225,7 +224,6 @@ div.legal {
     vertical-align: middle;
     text-align: center;
     white-space: nowrap;
-  -webkit-border-image: url("") 74 20 180 20 stretch;
     border-width: 1px 15px 0px 10px;
 }
 
@@ -239,7 +237,6 @@ div.legal {
     vertical-align: middle;
     text-align: center;
     white-space: nowrap;
-    -webkit-border-image: url("") 160 20 78 20 stretch;
     border-width: 1px 15px 0px 10px;
 }
 
@@ -274,7 +271,6 @@ div.fallbackButton, div.modalButton, table.modalButton {
   vertical-align: middle;
   text-align: center;
   white-space: nowrap;
-  -webkit-border-image: url("") 74 20 180 20 stretch;
   border-width: 1px 15px 0px 10px;
 }
 
@@ -285,7 +281,6 @@ div.fallbackButton, div.modalButton, table.modalButton {
   vertical-align: middle;
   text-align: center;
   white-space: nowrap;
-  -webkit-border-image: url("") 160 20 78 20 stretch;
   border-width: 1px 15px 0px 10px;
 }
 
@@ -309,7 +304,6 @@ div.fallbackButton, div.modalButton, table.modalButton {
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
   -moz-transform-origin: center;
-  background: url("") no-repeat left top;
   width: 48px;
   height: 48px;
   background-position: -8px -8px;
