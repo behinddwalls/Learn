@@ -89,7 +89,7 @@ table.signup_buttons {
 }
 div.button_inner
 {
-    padding: 1.5rem 1.8rem;
+    padding: 1.5rem 0px 1.8rem 0px;
     
 }
 div.signup_action {
