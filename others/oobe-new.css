@@ -42,8 +42,8 @@ div.headline {
     font-size: 38pt;
     font-size: 5.066rem;
     font-weight: 100;
-    padding:20px;
-    padding: 2rem;
+    padding:20px 30px;
+    padding: 2rem 3rem;
     
 }
 div.benefit_divider_old {
@@ -62,13 +62,9 @@ div.upsell_image {
     padding-top: 10px;
     padding-top: 1rem;
     display: block;
-    height: 219px;
-    height: 21.9rem;
-    left: 0;
+    height: auto;
     position: relative;
-    top: 0;
-    width: 800px;
-    width: 80rem;
+    width: 100%;
     margin: 0 auto;
 }
 .amznButtonPrice {
@@ -260,7 +256,7 @@ div.upsell_container {
 }
 
 div.upsell_container img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -284,8 +280,8 @@ div.legal {
     font-size: 13pt;
     font-size: 1.73rem;
     font-weight: 100;
-    padding: 20px;
-    padding: 2rem;
+    padding: 20px 30px;
+    padding: 2rem 3rem;
     text-align: justify;
     color: #949494;
 }
@@ -614,8 +610,8 @@ a.no_thanks_link {
     div.headline {
         font-size: 12pt;
         font-size: 1.6rem;
-        padding: 10px;
-        padding:1rem;
+        padding: 10px 14px;
+        padding:1rem 1.4rem;
     }
 
     div.benefits_listing {
@@ -693,8 +689,8 @@ a.no_thanks_link {
     div.legal {
         font-size: 8pt;
         font-size: 1.066rem;
-        padding: 10px;
-        padding: 1rem;
+        padding: 10px 14px;
+        padding: 1rem 1.4rem;
 	width:auto;
     }
 
@@ -754,8 +750,8 @@ a.no_thanks_link {
     div.headline {
         font-size: 12pt;
         font-size: 1.6rem;
-        padding: 8px;
-        padding: 0.8rem;
+        padding: 8px 14px;
+        padding: 0.8rem 1.4rem;
     }
 
     div.benefits_listing {
@@ -832,8 +828,8 @@ a.no_thanks_link {
     div.legal {
         font-size: 8pt;
         font-size: 1.066rem;
-        padding: 10px;
-        padding: 1rem;
+        padding: 10px 14px;
+        padding: 1rem 1.4rem;
     }
 
     div.no_thanks {
@@ -888,8 +884,8 @@ a.no_thanks_link {
     div.headline {
         font-size: 14pt;
         font-size: 1.866rem;
-        padding: 10px;
-        padding: 1rem;
+        padding: 10px 14px;
+        padding: 1rem 1.4rem;
     }
 
     div.benefits_listing {
@@ -970,8 +966,8 @@ a.no_thanks_link {
     div.legal {
         font-size: 8pt;
         font-size: 1.066rem;
-        padding: 0 10px;
-        padding: 0 1rem;
+        padding: 0 14px;
+        padding: 0 1.4rem;
         margin-top:-10px;
         margin-top:-1rem;
     }
@@ -1078,8 +1074,8 @@ a.no_thanks_link {
     div.headline {
         font-size: 21pt;
         font-size: 2.8rem;
-        padding: 10px  12px;
-        padding: 1rem 1.2rem;
+        padding: 10px  16px;
+        padding: 1rem 1.6rem;
     }
 
     div.benefits_listing {
@@ -1154,8 +1150,8 @@ a.no_thanks_link {
     div.legal {
         font-size: 9pt;
         font-size: 1.2rem;
-        padding: 10px;
-        padding:1rem;
+        padding: 10px 16px;
+        padding:1rem 1.6rem;
     }
 
     div.no_thanks {
@@ -1196,8 +1192,8 @@ a.no_thanks_link {
     div.headline {
         font-size: 34pt;
         font-size: 4.533rem;
-        padding: 20px;
-        padding: 2rem;
+        padding: 20px 20px;
+        padding: 2rem 2rem;
     }
     div.container {
         padding: 30px 20px !important;
@@ -1223,8 +1219,8 @@ a.no_thanks_link {
     div.headline {
         font-size: 32pt;
         font-size: 4.266rem;
-        padding: 15px;
-        padding: 1.5rem;
+        padding: 15px 20px;
+        padding: 1.5rem 2rem;
     }
 
     div.benefits_listing {
@@ -1282,8 +1278,8 @@ a.no_thanks_link {
     div.legal {
         font-size: 12pt;
         font-size:1.6rem;
-        padding: 10px;
-        padding:1rem;
+        padding: 10px 20px;
+        padding:1rem 2rem;
     }
 
     div.no_thanks {
