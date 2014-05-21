@@ -385,5 +385,8 @@ div.legal {
 margin-top: 1rem;
 font-size: 1.5rem;
 }
+span.no_thanks_arrow {
+padding: 8px 15px 0px 15px;
+}
     
 }
