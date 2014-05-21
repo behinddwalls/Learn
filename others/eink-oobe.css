@@ -108,7 +108,7 @@ font-weight: normal;
 color: #000000;
 text-align: center;
 max-width: 100%;
-white-space: normal;
+white-space: nowrap;
 padding: 1rem;;
 font-family: "Futura Medium", Futura, Helvetica, Arial, sans-serif;
 }
