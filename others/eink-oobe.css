@@ -10,6 +10,7 @@ font-size: 10px;
 #wrapper
 {
      padding:1rem 2rem;
+     overflow:auto;
      
 }
 div.headline {
@@ -242,18 +243,16 @@ border-width: 1px 15px 0px 10px;
   color: #FFFFFF;
     height: 65px;
     font-weight: bold;
-    font-size: 25px;
-    line-height: 65px;
-    max-width: 700px;
+    font-size: 3.2rem;
+    max-width: 100%;
     vertical-align: middle;
     text-align: center;
-    white-space: nowrap;
+    white-space: normal;
     border-width: 1px 15px 0px 10px;
 }
 
 .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
-  font-size: 20px;
-  line-height: 65px;
+  font-size: 2rem;
   color: #000000;
 }
 
@@ -352,4 +351,12 @@ div.fallbackButton, div.modalButton, table.modalButton {
   to {
     -o-transform: rotate(1080deg);
   }
+}
+
+@media all and (max-width:1023px) and (min-width:769px)
+{
+    
+    
+    
+    
 }
