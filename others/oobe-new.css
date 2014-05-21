@@ -688,8 +688,8 @@ a.no_thanks_link {
     div.legal {
         font-size: 8pt;
         font-size: 1.066rem;
-        padding: 10px 20px;
-        padding: 1rem 2rem;
+        padding: 10px 14px;
+        padding: 1rem 1.4rem;
 	width:auto;
     }
 
@@ -827,8 +827,8 @@ a.no_thanks_link {
     div.legal {
         font-size: 8pt;
         font-size: 1.066rem;
-        padding: 10px 20px;
-        padding: 1rem 2rem;
+        padding: 10px 14px;
+        padding: 1rem 1.4rem;
     }
 
     div.no_thanks {
@@ -965,8 +965,8 @@ a.no_thanks_link {
     div.legal {
         font-size: 8pt;
         font-size: 1.066rem;
-        padding: 0 20px;
-        padding: 0 2rem;
+        padding: 0 14px;
+        padding: 0 1.4rem;
         margin-top:-10px;
         margin-top:-1rem;
     }
@@ -1149,10 +1149,9 @@ a.no_thanks_link {
     div.legal {
         font-size: 9pt;
         font-size: 1.2rem;
-        padding: 10px 20px;
-        padding:1rem  2rem;
+        padding: 10px 16px;
+        padding:1rem 1.6rem;
     }
-
     div.no_thanks {
         font-size: 12pt;
         font-size:1.6rem;
@@ -1277,8 +1276,8 @@ a.no_thanks_link {
     div.legal {
         font-size: 12pt;
         font-size:1.6rem;
-        padding: 10px 30px;
-        padding:1rem  3rem;
+        padding: 10px 20px;
+        padding:1rem 2rem;
     }
 
     div.no_thanks {
