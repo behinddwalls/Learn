@@ -376,6 +376,9 @@ font-size: 2.8rem;
 .no_thanks {
 font-size: 2.2rem;
 }
+span.no_thanks_arrow {
+padding: 8px 15px 0px 15px;
+}
 div.after_signup_buttons {
 margin-top: 3rem;
 font-size: 2rem;
@@ -384,46 +387,45 @@ div.legal {
 margin-top: 1rem;
 font-size: 1.5rem;
 }
-span.no_thanks_arrow {
-padding: 8px 15px 0px 15px;
-}
+
     
 }
 
 @media all and (max-width:768px) and (min-width:481px) {
     
     div.headline {
-    margin-bottom: 1rem;
-    font-size: 4rem;
+   margin-bottom: 0.5rem;
+font-size: 2.6rem;
     }
     div.benefits_title {
-    font-size: 2.5rem;
-    margin-top: 1.5rem;
+    font-size: 2rem;
+margin-top: 1rem;
     }
     div.benefits_detail {
-font-size: 2.2rem;
+font-size: 1.9rem;
 }
 div.benefits_more {
-font-size: 2rem;
-margin-top: 1.5rem;
+font-size: 1.8rem;
+margin-top: 1rem;
 }
 .amznButtonPrice {
 
-font-size: 2.8rem;
+font-size: 2.5rem;
 }
 .no_thanks {
-font-size: 2.2rem;
+font-size: 1.6rem;
+}
+span.no_thanks_arrow {
+padding: 14px 15px 0px 15px;
 }
 div.after_signup_buttons {
-margin-top: 3rem;
-font-size: 2rem;
+margin-top: 2rem;
+font-size: 1.7rem;
 }
 div.legal {
 margin-top: 1rem;
-font-size: 1.5rem;
+font-size: 1.4rem;
 }
-span.no_thanks_arrow {
-padding: 8px 15px 0px 15px;
-}
+
     
 }
