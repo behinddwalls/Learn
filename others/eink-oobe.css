@@ -445,8 +445,8 @@ font-size: 1.4rem;
 }
 #modalButton, #errorButton, .modalButton, .modal-button {
 max-width: 200px;
-font-size: 30px;
-font-size: 3rem;
+font-size: 25px;
+font-size: 2.5rem;
 margin: 7px auto;
 margin:0.7rem auto;
 }
@@ -520,8 +520,8 @@ padding: 5px 10px;
 }
 #errorButton, .modalButton, .modal-button {
 max-width: 150px;
-font-size: 25px;
-font-size: 2.5rem;
+font-size: 2px;
+font-size: 2rem;
 margin: 10px auto;
 }
 }
