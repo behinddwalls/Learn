@@ -240,7 +240,6 @@ border-width: 1px 15px 0px 10px;
 
 .amznButtonPricePressed {
   color: #FFFFFF;
-    height: 65px;
     font-weight: bold;
     font-size: 3.2rem;
     max-width: 100%;
@@ -251,7 +250,7 @@ border-width: 1px 15px 0px 10px;
 }
 
 .textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
-  font-size: 2rem;
+  font-size: 3.2rem;
   color: #000000;
 }
 
@@ -275,7 +274,6 @@ div.fallbackButton, div.modalButton, table.modalButton {
 .amznButton {
   color: #000000;
   background-color: #FFFFFF;
-  height: 65px;
   max-width: 500px;
   vertical-align: middle;
   text-align: center;
@@ -285,7 +283,6 @@ div.fallbackButton, div.modalButton, table.modalButton {
 
 .amznButtonPressed {
   color: #FFFFFF;
-  height: 65px;
   max-width: 500px;
   vertical-align: middle;
   text-align: center;
@@ -373,8 +370,10 @@ table.signup_buttons {
 margin-top: 30px;
 }
 .amznButtonPrice {
-
 font-size: 2.8rem;
+}
+.textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
+  font-size: 2.8rem;
 }
 .no_thanks {
 font-size: 2.2rem;
@@ -428,6 +427,9 @@ margin-top: 20px;
 .amznButtonPrice {
 
 font-size: 2.5rem;
+}
+.textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
+  font-size: 2.5rem;
 }
 .no_thanks {
 font-size: 1.6rem;
@@ -491,6 +493,9 @@ margin-top: 10px;
 .amznButtonPrice {
 
 font-size: 2rem;
+}
+.textAppearanceAmazonButton, .textAppearanceAmazonButtonDisabled, .textAppearanceAmazonButtonPriceDisabled, .textAppearanceAmazonButtonPurchaseDisabled {
+  font-size: 2rem;
 }
 .no_thanks {
 font-size: 1.2rem;
