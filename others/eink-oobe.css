@@ -193,7 +193,7 @@ white-space: nowrap;
 }
 
 .prime-modal-body {
-max-width: 700px;
+max-width: 100%;
 background-color: #FFFFFF;
 color: #000000;
 border: 5px solid #000000;
@@ -451,7 +451,6 @@ margin: 7px auto;
 margin:0.7rem auto;
 }
 .prime-modal-body {
-max-width: 100%;
 border: 2px solid #000000;
 font-size: 2rem;
 padding: 5px 10px;
@@ -507,6 +506,22 @@ div.legal {
 margin-top: 1rem;
 font-size: 1.1rem;
 }
-
-    
+.prime-modal-title {
+border-top: 2px solid #000000;
+border-left: 2px solid #000000;
+border-right: 2px solid #000000;
+font-size: 2rem;
+padding: 5px 10px;
+}
+.prime-modal-body {
+border: 2px solid #000000;
+font-size: 2rem;
+padding: 5px 10px;
+}
+#errorButton, .modalButton, .modal-button {
+max-width: 150px;
+font-size: 25px;
+font-size: 2.5rem;
+margin: 10px auto;
+}
 }
