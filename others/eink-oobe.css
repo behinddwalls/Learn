@@ -277,7 +277,8 @@ div.fallbackButton, div.modalButton, table.modalButton {
   max-width: 500px;
   vertical-align: middle;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
+  margin: 0 auto;
   border-width: 1px 15px 0px 10px;
 }
 
@@ -286,7 +287,8 @@ div.fallbackButton, div.modalButton, table.modalButton {
   max-width: 500px;
   vertical-align: middle;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
+  margin: 0 auto;
   border-width: 1px 15px 0px 10px;
 }
 
