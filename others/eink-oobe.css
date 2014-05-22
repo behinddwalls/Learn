@@ -391,7 +391,12 @@ div.legal {
 margin-top: 1rem;
 font-size: 1.5rem;
 }
-
+.prime-modal-body {
+font-size: 2.5rem;
+}
+.prime-modal-title {
+font-size: 2.3rem;
+}
     
 }
 
@@ -432,6 +437,29 @@ font-size: 1.7rem;
 div.legal {
 margin-top: 1rem;
 font-size: 1.4rem;
+}
+#modalButton, #errorButton, .modalButton, .modal-button {
+max-width: 200px;
+font-family: "Futura Plain", Futura, Helvetica, Arial, sans-serif;
+font-size: 25px;
+vertical-align: middle;
+text-align: center;
+font-size: 3rem;
+padding: 5px 20px 10px 20px;
+margin: 7px auto;
+}
+.prime-modal-body {
+max-width: 100%;
+border: 5px solid #000000;
+font-size: 2rem;
+padding: 5px 10px;
+}
+.prime-modal-title {
+border-top: 2px solid #000000;
+border-left: 2px solid #000000;
+border-right: 2px solid #000000;
+font-size: 2rem;
+padding: 5px 10px;
 }
 
     
