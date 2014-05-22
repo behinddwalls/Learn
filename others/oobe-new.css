@@ -1144,15 +1144,15 @@ a.no_thanks_link {
     div.after_signup_buttons {
         font-size: 12pt;
         font-size: 1.6rem;
-	margin-top:30px;
-	margin-top:3rem;
+	margin-top:20px;
+	margin-top:2rem;
     }
 
     div.legal {
         font-size: 9pt;
         font-size: 1.2rem;
-        padding: 10px 16px;
-        padding:1rem 1.6rem;
+        padding: 6px 16px;
+        padding:0.6rem 1.6rem;
     }
     div.no_thanks {
         font-size: 12pt;
