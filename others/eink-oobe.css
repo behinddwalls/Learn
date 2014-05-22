@@ -214,7 +214,6 @@ text-align: left;
     vertical-align: middle;
     text-align: center;
     font-size: 3rem;
-    padding: 10px 30px 14px 30px;
     margin: 10px auto;
 }
 
@@ -397,6 +396,12 @@ font-size: 2.5rem;
 .prime-modal-title {
 font-size: 2.3rem;
 }
+#modalButton, #errorButton, .modalButton, .modal-button {
+max-width: 300px;
+font-size: 30px;
+font-size: 3rem;
+margin: 10px auto;
+}
     
 }
 
@@ -450,7 +455,7 @@ margin: 7px auto;
 }
 .prime-modal-body {
 max-width: 100%;
-border: 5px solid #000000;
+border: 2px solid #000000;
 font-size: 2rem;
 padding: 5px 10px;
 }
