@@ -958,8 +958,8 @@ a.no_thanks_link {
     div.after_signup_buttons {
         font-size: 10pt;
         font-size: 1.333rem;
-        padding: 10px;
-        padding: 1rem;
+        padding: 10px 0px;
+        padding: 1rem 0px;
 	margin-top:10px;
 	margin-top:1rem;
     }
