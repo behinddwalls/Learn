@@ -14,24 +14,34 @@ for iter = 1:num_iters
     %               theta. 
     %
     % Hint: While debugging, it can be useful to print out the values
-    %       of the cost function (computeCostMulti) and gradient here.
+    %       of the cost function (computeCost) and gradient here.
     %
 
+%printf('theta = (%.2f, %.2f), cost = %.2f\n', theta(1), theta(2), computeCost(X, y, theta));
 
+% Calculate the hypothesis function h, just like when computing cost.
 
+h = X * theta;
 
+% Calculate the next iteration of theta by learning rate alpha.  This is
+% equivalent to:
+% 
+% nextTheta0 = theta(1) - (alpha * (1 / m) * sum(h - y));
+% nextTheta1 = theta(2) - (alpha * (1 / m) * sum((h - y) .* X(:, 2)));
+% theta = [nextTheta0; nextTheta1];
+%
+% The approach fully utilizes matrix operations though, so it may generalize to
+% multivariate linear regression.
 
-
-
-
-
+theta -= alpha * (1 / m) * (X' * (h - y));
 
 
     % ============================================================
 
     % Save the cost J in every iteration    
-    J_history(iter) = computeCostMulti(X, y, theta);
+    J_history(iter) = computeCost(X, y, theta);
 
 end
+
 
 end

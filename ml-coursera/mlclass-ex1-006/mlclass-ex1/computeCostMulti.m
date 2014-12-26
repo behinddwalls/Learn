@@ -13,8 +13,15 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
+h = X * theta;
 
+% Calculate squared error for each training example.
 
+squaredErrors = (h - y) .^ 2;
+
+% Calculate the cost function J.  The final result is a scalar.
+
+J = (1 / (2 * m)) * sum(squaredErrors);
 
 
 % =========================================================================
